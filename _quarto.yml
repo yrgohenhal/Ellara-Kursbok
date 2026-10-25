@@ -1,0 +1,97 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Ellära"
+  subtitle: "Kretsanalys för elektronik"
+  author: "Henrik Hallenberg"
+  output-file: ellara
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - 01-grunder.qmd
+    - 02-effekt-och-energi.qmd
+    - references.qmd
+
+lang: sv
+
+number-sections: true
+number-depth: 2
+
+crossref:
+  tbl-title: "Tabell"
+  fig-title: "Figur"
+
+bibliography: references.bib
+csl: ieee.csl
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 2
+
+  pdf:
+    include-in-header:
+      - text: |
+          \AtBeginDocument{
+            \setlength{\parskip}{3pt}
+            \setlength{\parindent}{0pt}
+            }
+            
+          \usepackage{caption}
+          \captionsetup{
+            font=small,
+            labelfont=bf,
+            textfont=normalfont,
+            labelsep=colon,
+            justification=raggedright,
+            singlelinecheck=false
+          }
+
+    tbl-cap-location: top
+    fig-cap-location: bottom
+    
+    # Dokumentklass och PDF-motor
+    documentclass: scrreprt
+    pdf-engine: lualatex
+
+    # A4, dubbelsidigt och kapitelstart på nästa sida
+    papersize: a4
+    classoption:
+      - twoside
+      - open=any
+
+    # Text och typsnitt
+    fontsize: 11pt
+    mainfont: "Latin Modern Roman"
+    sansfont: "Latin Modern Sans"
+    monofont: "Latin Modern Mono"
+    mathfont: "Latin Modern Math"
+
+    # Spegelvända marginaler för dubbelsidig utskrift
+    geometry:
+      - inner=25mm
+      - outer=20mm
+      - top=20mm
+      - bottom=25mm
+      - includeheadfoot
+      - heightrounded
+
+    # Innehållsförteckning
+    toc: true
+    toc-title: "Innehåll"
+    toc-depth: 2
+
+    # Klickbara länkar utan färg eller ramar i PDF
+    colorlinks: false
+    hyperrefoptions:
+      - hidelinks
+
+    # Behåll LaTeX-filen vid felsökning
+    keep-tex: true
+
+editor: source

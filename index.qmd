@@ -1,0 +1,4 @@
+# Förord {.unnumbered}
+
+Denna bok behandlar grundläggande ellära och kretsanalys
+med inriktning mot elektronik.

@@ -1,0 +1,25 @@
+# Quarto: genererade filer och cache
+/_book/
+/.quarto/
+
+# LaTeX: tillfälliga filer
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# KiCad: säkerhetskopior, lås och lokala inställningar
+**/*-backups/
+*.kicad_prl
+*.lck
+~*
+_autosave-*
+*-save.kicad_sch
+*-save.kicad_pcb
+
+# Operativsystem
+.DS_Store
+Thumbs.db

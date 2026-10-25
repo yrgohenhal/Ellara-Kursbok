@@ -1,0 +1,803 @@
+# Effekt och energi {#sec-effekt}
+
+När en elektrisk krets används överförs och omvandlas energi. I en resistor omvandlas elektrisk energi till värme. I en motor omvandlas en del av den till mekaniskt arbete. Ett batteri kan leverera elektrisk energi genom kemiska reaktioner.
+
+För att dimensionera en krets behöver vi veta hur snabbt energi omvandlas och hur mycket energi som behövs under en viss tid. Vi behöver också kontrollera att komponenterna klarar belastningen.
+
+I detta kapitel arbetar vi med likström och stationära tillstånd. Om inget annat anges antar vi att spänning, ström och effekt är konstanta under den tid som undersöks.
+
+## Mål {.unnumbered #sec-effekt-mal}
+
+Efter kapitlet ska du kunna:
+
+- förklara skillnaden mellan energi och effekt,
+- använda enheterna joule, watt, wattimme och kilowattimme,
+- beräkna elektrisk effekt med hjälp av spänning och ström,
+- beräkna effekten i en resistor med hjälp av resistans och ström eller spänning,
+- skilja mellan mottagen och avgiven elektrisk effekt utifrån strömmens riktning och spänningens polaritet,
+- använda effektbalans för att kontrollera en kretsberäkning,
+- beräkna energi vid konstant effekt,
+- kontrollera en resistors belastning mot dess angivna effektgräns,
+- beräkna högsta tillåtna ström eller spänning utifrån en effektgräns,
+- beräkna verkningsgrad och förlusteffekt.
+
+## Storheter, beteckningar och enheter {#sec-effekt-storheter}
+
+| Storhet | Beteckning | Enhet | Enhetssymbol |
+|---|---|---|---|
+| Energi | $E$ | joule | $\mathrm{J}$ |
+| Effekt | $P$ | watt | $\mathrm{W}$ |
+| Verkningsgrad | $\eta$ | dimensionslös | – |
+
+: Storheter som introduceras i kapitlet. {#tbl-effekt-storheter}
+
+Energi kan även anges i **wattimmar**, $\mathrm{Wh}$, och
+**kilowattimmar**, $\mathrm{kWh}$.
+
+Verkningsgrad (se @sec-effekt-verkningsgrad) är ett förhållande mellan två effekter och saknar
+därför enhet. Den anges ofta i procent.
+
+## Elektrisk energi {#sec-effekt-elektrisk-energi}
+
+**Energi** kan överföras mellan delar av ett system och omvandlas mellan olika former. Den totala energin bevaras.
+
+När en laddning förflyttas genom en potentialskillnad kan elektrisk energi överföras. Vid konstant spänning är den överförda energins storlek
+
+$$
+E = UQ,
+$$
+
+där $U$ är spänningen och $Q$ är den överförda laddningen.
+
+Vi använder här sambandet för energins storlek. Om energin tas emot eller avges behöver också laddningens rörelseriktning och spänningens polaritet beaktas.
+
+Energi mäts i **joule**, med enhetssymbolen $\mathrm{J}$.
+
+En spänning på $1\,\mathrm{V}$ motsvarar en energiskillnad på $1\,\mathrm{J}$ per coulomb:
+
+$$
+[\mathrm{V}] = [\mathrm{J/C}].
+$$
+
+::: {.callout-important title="Energi omvandlas – ström förbrukas inte"}
+I en resistor omvandlas elektrisk energi till värme. Det betyder inte att strömmen förbrukas.
+
+I våra stationära kretsar går lika stor ström in i resistorns ena anslutning som ut ur den andra. Det är energi som överförs och omvandlas när laddningarna passerar genom kretsen.
+:::
+
+## Elektrisk effekt {#sec-effekt-elektrisk-effekt}
+
+**Effekt** beskriver hur snabbt energi överförs eller omvandlas.
+
+Medelvärdet av effekten under ett tidsintervall är
+
+$$
+P_\mathrm{medel} = \frac{\Delta E}{\Delta t}.
+$$
+
+Om effekten är konstant kan vi skriva
+
+$$
+\boxed{P = \frac{E}{t}},
+$$
+
+där $E$ är energin som överförs under tiden $t$.
+
+Effekt mäts i **watt**, med enhetssymbolen $\mathrm{W}$:
+
+$$
+[\mathrm{W}] = [\mathrm{J/s}].
+$$
+
+En effekt på $5\,\mathrm{W}$ innebär alltså att $5\,\mathrm{J}$ överförs eller omvandlas varje sekund.
+
+Skillnaden mellan energi och effekt kan sammanfattas så här:
+
+- **Energi** anger hur mycket som överförs eller omvandlas.
+- **Effekt** anger hur snabbt det sker.
+
+::: {.callout-note title="Exempel: energi och effekt" icon=false}
+En apparat omvandlar energin $E = 600\,\mathrm{J}$ under tiden $t = 120\,\mathrm{s}$. Effekten är konstant.
+
+Effekten blir
+
+$$
+P = \frac{E}{t}
+= \frac{600}{120}\,\mathrm{W}
+= 5{,}0\,\mathrm{W}.
+$$
+
+**Svar:** Apparaten omvandlar energi med effekten $5{,}0\,\mathrm{W}$.
+:::
+
+## Effekt vid likström {#sec-effekt-effekt-vid-likstrom}
+
+För konstant ström gäller
+
+$$
+Q = It.
+$$
+
+Om vi kombinerar detta med $E = UQ$ och $P = E/t$ får vi
+
+$$
+P = \frac{E}{t}
+= \frac{UQ}{t}
+= \frac{UIt}{t}.
+$$
+
+Därmed får vi sambandet
+
+$$
+\boxed{P = UI}.
+$$
+
+Effekten beror alltså på både spänningen över komponenten och strömmen genom den. När vi beräknar effektens storlek använder vi spänningens och strömmens belopp. Vi anger med orden **mottagen** eller **avgiven** åt vilket håll energin överförs, se @sec-effekt-mottagen-och-avgiven-effekt.
+
+Med spänningen i volt och strömmen i ampere blir effekten i watt:
+
+$$
+[\mathrm{V}] \cdot [\mathrm{A}] = [\mathrm{W}].
+$$
+
+Om strömmen anges i milliampere blir effekten i milliwatt:
+
+$$
+[\mathrm{V}] \cdot [\mathrm{mA}] = [\mathrm{mW}].
+$$
+
+::: {.callout-note title="Exempel: effekt i en elektrisk last" icon=false}
+En last är ansluten till spänningen $U = 12\,\mathrm{V}$ och tar emot strömmen $I = 80\,\mathrm{mA}$.
+
+Effekten blir
+
+$$
+P = UI
+= (12 \cdot 0{,}080)\,\mathrm{W}
+= 0{,}96\,\mathrm{W}.
+$$
+
+**Svar:** Lasten tar emot den elektriska effekten $0{,}96\,\mathrm{W}$.
+:::
+
+::: {.callout-important title="Spänning och ström ska avse samma komponent"}
+När du använder $P = UI$ för en komponent ska $U$ vara spänningen över komponenten och $I$ strömmen genom den.
+
+Du kan inte utan vidare multiplicera källans spänning med strömmen i en enskild gren för att få effekten i en annan komponent.
+:::
+
+## Effekt i en resistor {#sec-effekt-effekt-i-en-resistor}
+
+En ideal resistor följer Ohms lag:
+
+$$
+U = RI.
+$$
+
+Vi kan använda detta för att skriva effektuttrycket på olika sätt.
+
+Om strömmen är känd får vi
+
+$$
+P = UI = (RI)I,
+$$
+
+vilket ger
+
+$$
+\boxed{P = RI^2}.
+$$
+
+Om spänningen är känd använder vi i stället $I = U/R$:
+
+$$
+P = UI = U\frac{U}{R},
+$$
+
+vilket ger
+
+$$
+\boxed{P = \frac{U^2}{R}}.
+$$
+
+För en ideal resistor kan vi alltså använda tre likvärdiga uttryck.
+
+| Kända storheter | Effektuttryck |
+|---|---|
+| Spänning och ström | $P = UI$ |
+| Resistans och ström | $P = RI^2$ |
+| Spänning och resistans | $P = U^2/R$ |
+
+: Samband för effekten i en ideal resistor. {#tbl-effekt-resistor}
+
+Välj det uttryck som passar de storheter du känner till.
+
+::: {.callout-note title="Exempel: effekt i en resistor" icon=false}
+En resistor med resistansen $R = 1000\,\Omega$ ansluts till spänningen $U = 12\,\mathrm{V}$.
+
+Eftersom spänningen och resistansen är kända använder vi
+
+$$
+P = \frac{U^2}{R}
+= \frac{12^2}{1000}\,\mathrm{W}
+= 0{,}144\,\mathrm{W}.
+$$
+
+Vi kan kontrollera resultatet genom att först beräkna strömmen:
+
+$$
+I = \frac{U}{R}
+= \frac{12}{1000}\,\mathrm{A}
+= 0{,}012\,\mathrm{A}.
+$$
+
+Därefter får vi
+
+$$
+P = UI
+= (12 \cdot 0{,}012)\,\mathrm{W}
+= 0{,}144\,\mathrm{W}.
+$$
+
+**Svar:** Effekten i resistorn är $144\,\mathrm{mW}$.
+:::
+
+### Effekten beror på strömmen eller spänningen i kvadrat {#sec-effekt-effekten-beror-pa-strommen-eller-spanningen-i-kvadrat}
+
+Uttrycket $P = RI^2$ visar att effekten fyrdubblas om strömmen fördubblas genom samma resistans.
+
+På motsvarande sätt visar $P = U^2/R$ att effekten fyrdubblas om spänningen fördubblas över samma resistans.
+
+En ganska liten förändring av spänning eller ström kan därför ge en betydande förändring av uppvärmningen.
+
+::: {.callout-tip title="Ange vad som hålls konstant"}
+Frågan ”ger en större resistans högre effekt?” saknar ett entydigt svar om vi inte vet hur resistorn används.
+
+- Vid **konstant spänning** ger större resistans lägre effekt, eftersom $P = U^2/R$.
+- Vid **konstant ström** ger större resistans högre effekt, eftersom $P = RI^2$.
+
+Utgå alltid från kretsens förutsättningar.
+:::
+
+## Mottagen och avgiven effekt {#sec-effekt-mottagen-och-avgiven-effekt}
+
+En komponent kan **ta emot** eller **avge** elektrisk effekt. I denna bok anger vi effektens storlek som ett positivt belopp och beskriver energiöverföringens riktning med orden mottagen och avgiven.
+
+### Begrepp för effekt {#sec-effekt-begrepp-for-effekt}
+
+**Mottagen effekt** anger hur snabbt elektrisk energi överförs från resten av kretsen till en komponent. Energin kan omvandlas till andra energiformer eller lagras i komponenten. En resistor tar emot elektrisk effekt och omvandlar elektrisk energi till värme.
+
+**Avgiven effekt** anger hur snabbt elektrisk energi överförs från en komponent till resten av kretsen. Ett batteri som driver en last avger elektrisk effekt, medan lasten tar emot den.
+
+Samma komponent kan både ta emot och avge effekt vid olika driftförhållanden. Ett laddningsbart batteri tar emot elektrisk effekt vid laddning och avger elektrisk effekt vid urladdning.
+
+När vi beskriver ett systems funktion använder vi även följande begrepp:
+
+- **Tillförd effekt**, $P_\mathrm{in}$, är den effekt som överförs till systemet genom de energitillförande vägar som ingår i analysen.
+- **Nyttig uteffekt**, $P_\mathrm{nyttig}$, är den del av effekten som används för systemets avsedda funktion.
+- **Förlusteffekt**, $P_\mathrm{förlust}$, är den del av effekten som inte blir nyttig för den avsedda funktionen, exempelvis värme i en motor eller spänningsomvandlare.
+
+Vad som räknas som nyttig effekt beror på tillämpningen. Värme är nyttig i ett värmeelement, men vanligen en förlust i en motor.
+
+::: {.callout-important title="Förbrukad effekt och energiförluster"}
+Uttrycket **förbrukad effekt** används ofta om den elektriska effekt en apparat tar emot. I denna bok använder vi i stället **mottagen effekt** eller **tillförd effekt**, beroende på sammanhanget.
+
+Energi försvinner inte. Den överförs, omvandlas eller lagras. Även den energi som vi beskriver som en förlust finns kvar, exempelvis som värme i omgivningen.
+:::
+
+### Strömriktning och effektöverföring {#sec-effekt-stromriktning-och-effektoverforing}
+
+När en spänningskälla driver en krets väljer vi strömmens positiva referensriktning **ut ur källans pluspol**. Källan avger då elektrisk effekt. Vid lasten går strömmen in i anslutningen med högre potential, och lasten tar emot elektrisk effekt.
+
+För att avgöra om en komponent tar emot eller avger elektrisk effekt undersöker vi den verkliga strömriktningen:
+
+- Ström **in i anslutningen med högre potential** innebär mottagen elektrisk effekt.
+- Ström **ut ur anslutningen med högre potential** innebär avgiven elektrisk effekt.
+
+När spänningen och strömmen är kända använder vi deras belopp i $P = UI$ och skriver om resultatet är mottagen eller avgiven effekt.
+
+::: {.callout-note title="Exempel: en spänningskälla avger effekt" icon=false}
+En ideal spänningskälla håller spänningen $U = 10\,\mathrm{V}$ och driver en last med strömmen $I = 20\,\mathrm{mA}$. Strömmens positiva referensriktning är ut ur källans pluspol.
+
+Källans avgivna effekt blir
+
+$$
+P_\mathrm{avgiven} = UI
+= (10 \cdot 0{,}020)\,\mathrm{W}
+= 0{,}20\,\mathrm{W}.
+$$
+
+**Svar:** Källan avger effekten $0{,}20\,\mathrm{W}$. Lasten tar emot lika stor elektrisk effekt.
+:::
+
+::: {.callout-important title="En negativ ström visar motsatt riktning"}
+En strömpil anger en vald referensriktning. Om en beräkning ger negativ ström går den verkliga strömmen åt motsatt håll mot pilen.
+
+Om referensriktningen är ut ur ett batteris pluspol och strömmen blir negativ går den verkliga strömmen in i pluspolen. Batteriet tar då emot elektrisk effekt.
+
+Bestäm först den verkliga riktningen. Beräkna därefter effektens storlek med spänningens och strömmens belopp och ange om effekten är mottagen eller avgiven.
+:::
+
+### Andra teckenkonventioner {#sec-effekt-passiv-teckenkonvention}
+
+I annan litteratur och särskilt i simuleringsprogram kan effektens tecken användas för att skilja mellan mottagen och avgiven effekt. En vanlig metod är **passiv teckenkonvention**. Då väljs strömmens positiva referensriktning in i spänningens plusmarkerade anslutning, och $P = UI$ ger positiv mottagen effekt och negativ avgiven effekt.
+
+I denna bok använder vi i stället positiva belopp för effekten och anger med ord om den är mottagen eller avgiven.
+
+## Effektbalans {#sec-effekt-effektbalans}
+
+Energi bevaras. I en stationär krets där ingen lagrad energi förändras måste därför den sammanlagda avgivna effekten vara lika stor som den sammanlagda mottagna effekten:
+
+$$
+\boxed{P_\mathrm{avgiven} = P_\mathrm{mottagen}}.
+$$
+
+Här avser $P_\mathrm{avgiven}$ och $P_\mathrm{mottagen}$ de sammanlagda effekterna. Om flera komponenter avger eller tar emot effekt summerar vi beloppen på respektive sida:
+
+$$
+\boxed{\sum P_\mathrm{avgiven} = \sum P_\mathrm{mottagen}}.
+$$
+
+En källa kan också ta emot elektrisk effekt, exempelvis ett batteri som laddas. Den ska då räknas med på den mottagande sidan.
+
+### Effektbalans som kontroll {#sec-effekt-effektbalans-som-kontroll}
+
+När vi har löst en krets kan vi beräkna effekten i varje komponent. Om sammanlagd avgiven och mottagen effekt inte är lika stora kan det bero på exempelvis:
+
+- en felberäknad ström eller spänning,
+- att en komponent felaktigt har räknats som avgivande eller mottagande,
+- en komponent som inte har tagits med,
+- avrundningsfel.
+
+::: {.callout-note title="Exempel: kontroll med effektbalans" icon=false}
+En ideal spänningskälla på $9{,}0\,\mathrm{V}$ driver en resistor med resistansen $1500\,\Omega$.
+
+Strömmen genom resistorn blir
+
+$$
+I = \frac{U}{R}
+= \frac{9{,}0}{1500}\,\mathrm{A}
+= 0{,}0060\,\mathrm{A}.
+$$
+
+Resistorns mottagna effekt är
+
+$$
+P_R = UI
+= (9{,}0 \cdot 0{,}0060)\,\mathrm{W}
+= 0{,}054\,\mathrm{W}.
+$$
+
+Strömmen går ut ur källans pluspol. Källans avgivna effekt är
+
+$$
+P_\mathrm{avgiven} = UI
+= (9{,}0 \cdot 0{,}0060)\,\mathrm{W}
+= 0{,}054\,\mathrm{W}.
+$$
+
+Resistorn är den enda lasten, så $P_\mathrm{mottagen} = P_R$. Kontrollen ger
+
+$$
+P_\mathrm{avgiven} = P_\mathrm{mottagen}
+= 0{,}054\,\mathrm{W}.
+$$
+
+**Slutsats:** Källan avger lika stor effekt som resistorn tar emot.
+:::
+
+## Energi under ett tidsintervall {#sec-effekt-energi-under-ett-tidsintervall}
+
+Om effekten är konstant blir den överförda energin
+
+$$
+\boxed{E = Pt}.
+$$
+
+Med effekten i watt och tiden i sekunder blir energin i joule:
+
+$$
+[\mathrm{W}] \cdot [\mathrm{s}] = [\mathrm{J}].
+$$
+
+En apparat med låg effekt kan använda mycket energi om den är påslagen länge. För att jämföra energianvändning behöver vi därför ta hänsyn till både effekt och tid.
+
+::: {.callout-note title="Exempel: energi vid konstant effekt" icon=false}
+En krets tar emot den konstanta effekten $P = 2{,}0\,\mathrm{W}$ under $15\,\mathrm{min}$.
+
+Vi omvandlar först tiden till sekunder:
+
+$$
+t = (15 \cdot 60)\,\mathrm{s}
+= 900\,\mathrm{s}.
+$$
+
+Energin blir
+
+$$
+E = Pt
+= (2{,}0 \cdot 900)\,\mathrm{J}
+= 1800\,\mathrm{J}
+= 1{,}8\,\mathrm{kJ}.
+$$
+
+**Svar:** Kretsen tar emot energin $1{,}8\,\mathrm{kJ}$.
+:::
+
+### Wattimme och kilowattimme {#sec-effekt-wattimme-och-kilowattimme}
+
+När effekten anges i watt och tiden i timmar får vi energin i **wattimmar**, $\mathrm{Wh}$.
+
+En wattimme motsvarar
+
+$$
+[\mathrm{Wh}]
+= 3600\,[\mathrm{J}].
+$$
+
+En **kilowattimme**, $\mathrm{kWh}$, motsvarar
+
+$$
+[\mathrm{kWh}]
+= 1000\,[\mathrm{Wh}]
+= 3{,}6\,[\mathrm{MJ}].
+$$
+
+| Effektens enhet | Tidens enhet | Energins enhet |
+|---|---|---|
+| watt, $\mathrm{W}$ | sekund, $\mathrm{s}$ | joule, $\mathrm{J}$ |
+| watt, $\mathrm{W}$ | timme, $\mathrm{h}$ | wattimme, $\mathrm{Wh}$ |
+| kilowatt, $\mathrm{kW}$ | timme, $\mathrm{h}$ | kilowattimme, $\mathrm{kWh}$ |
+
+: Enhetskombinationer vid beräkning av energi. {#tbl-energi-enheter}
+
+::: {.callout-note title="Exempel: energianvändning under ett dygn" icon=false}
+En apparat tar emot den konstanta effekten $P = 5{,}0\,\mathrm{W}$ och är påslagen under $24\,\mathrm{h}$.
+
+Energin blir
+
+$$
+E = Pt
+= (5{,}0 \cdot 24)\,\mathrm{Wh}
+= 120\,\mathrm{Wh}
+= 0{,}12\,\mathrm{kWh}.
+$$
+
+**Svar:** Apparaten använder energin $0{,}12\,\mathrm{kWh}$ under ett dygn.
+:::
+
+::: {.callout-important title="Kilowatt och kilowattimme är olika storheter"}
+Kilowatt, $\mathrm{kW}$, är en enhet för effekt.
+
+Kilowattimme, $\mathrm{kWh}$, är en enhet för energi.
+
+En kilowattimme betyder att effekten $1\,\mathrm{kW}$ har använts under en timme. Samma energi kan exempelvis överföras med effekten $2\,\mathrm{kW}$ under en halvtimme.
+:::
+
+## Effektgränser och uppvärmning {#sec-effekt-effektgranser-och-uppvarmning}
+
+En verklig resistor blir varm när den tar emot elektrisk effekt. Temperaturen bestäms både av effekten och av hur effektivt värmen kan avges till omgivningen.
+
+Resistorer har en angiven **märkeffekt**. Den beskriver vilken effekt komponenten får belastas med under specificerade förhållanden.
+
+Exempel på märkeffekter är $0{,}125\,\mathrm{W}$, $0{,}25\,\mathrm{W}$ och $1\,\mathrm{W}$.
+
+Märkeffekten är inte den effekt resistorn automatiskt utvecklar. Den faktiska effekten bestäms av kretsens ström, spänning och resistans.
+
+En resistor märkt $1\,\mathrm{W}$ kan alltså användas i en krets där effekten är betydligt lägre.
+
+### Förutsättningarna i databladet {#sec-effekt-forutsattningarna-i-databladet}
+
+Tillåten effekt beror bland annat på:
+
+- omgivningstemperatur,
+- kapsling och montering,
+- värmeavledning till kretskortet,
+- luftflöde och annan kylning.
+
+Vid högre temperatur kan den tillåtna effekten behöva minskas. Detta kallas **effektreducering**, ofta benämnt *derating* i datablad.
+
+::: {.callout-important title="Märkeffekten är en gräns, inte ett dimensioneringsmål"}
+En komponent bör normalt inte dimensioneras så att den ligger precis på sin högsta tillåtna effekt.
+
+Komponenttoleranser, spänningsvariationer och temperatur kan öka belastningen. Välj därför en lämplig marginal och kontrollera databladets villkor.
+
+En resistor kan bli mycket varm även när dess tillåtna effekt inte överskrids.
+:::
+
+::: {.callout-note title="Exempel: klarar resistorn belastningen?" icon=false}
+En resistor med resistansen $R = 1000\,\Omega$ och märkeffekten $0{,}25\,\mathrm{W}$ ansluts till $U = 12\,\mathrm{V}$.
+
+Effekten blir
+
+$$
+P = \frac{U^2}{R}
+= \frac{12^2}{1000}\,\mathrm{W}
+= 0{,}144\,\mathrm{W}.
+$$
+
+Andelen av märkeffekten är
+
+$$
+\frac{P}{P_\mathrm{märkt}}
+= \frac{0{,}144}{0{,}25}
+= 0{,}576
+\approx 58\,\%.
+$$
+
+**Svar:** Den beräknade effekten är lägre än märkeffekten. För att avgöra om komponentvalet är lämpligt behöver vi även kontrollera temperatur, databladets villkor och önskad marginal.
+:::
+
+## Högsta tillåtna ström och spänning {#sec-effekt-hogsta-tillatna-strom-och-spanning}
+
+En effektgräns kan användas för att beräkna en strömgräns eller en spänningsgräns för en resistor.
+
+Utifrån
+
+$$
+P = RI^2
+$$
+
+får vi
+
+$$
+\boxed{I_\mathrm{max}
+= \sqrt{\frac{P_\mathrm{max}}{R}}}.
+$$
+
+Utifrån
+
+$$
+P = \frac{U^2}{R}
+$$
+
+får vi
+
+$$
+\boxed{U_\mathrm{max}
+= \sqrt{P_\mathrm{max}R}}.
+$$
+
+Här är $P_\mathrm{max}$ den tillåtna effekten under de aktuella arbetsförhållandena.
+
+::: {.callout-note title="Exempel: gränser från tillåten effekt" icon=false}
+En resistor har resistansen $R = 1000\,\Omega$. Anta att den tillåtna effekten under aktuella förhållanden är $P_\mathrm{max} = 0{,}25\,\mathrm{W}$.
+
+Den högsta strömmen utifrån effektgränsen blir
+
+$$
+I_\mathrm{max}
+= \sqrt{\frac{P_\mathrm{max}}{R}}
+= \sqrt{\frac{0{,}25}{1000}}\,\mathrm{A}
+\approx 15{,}8\,\mathrm{mA}.
+$$
+
+Motsvarande spänning blir
+
+$$
+U_\mathrm{max}
+= \sqrt{P_\mathrm{max}R}
+= \sqrt{0{,}25 \cdot 1000}\,\mathrm{V}
+\approx 15{,}8\,\mathrm{V}.
+$$
+
+**Svar:** Effektgränsen motsvarar ungefär $15{,}8\,\mathrm{mA}$ och $15{,}8\,\mathrm{V}$.
+
+Värdena beskriver gränsen enligt effektberäkningen. De innehåller ingen dimensioneringsmarginal.
+:::
+
+::: {.callout-important title="Effektgränsen är inte den enda begränsningen"}
+En resistor kan också ha en maximal tillåten arbetsspänning och särskilda gränser för kortvariga pulser.
+
+Den tillåtna spänningen får därför inte bestämmas enbart med $U_\mathrm{max} = \sqrt{P_\mathrm{max}R}$. Samtliga relevanta gränser i databladet måste vara uppfyllda.
+:::
+
+### Variationer och toleranser {#sec-effekt-variationer-och-toleranser}
+
+När en resistor ansluts till en bestämd spänning gäller
+
+$$
+P = \frac{U^2}{R}.
+$$
+
+Effekten blir då störst när spänningen är som högst och resistansen som lägst.
+
+Vid en bestämd ström gäller i stället
+
+$$
+P = RI^2.
+$$
+
+Då blir effekten störst när strömmen och resistansen är som högst.
+
+::: {.callout-tip title="Börja med ett nominellt värde och undersök sedan värsta fallet"}
+Beräkna först effekten med kretsens nominella värden.
+
+Undersök därefter hur spänningsvariationer och komponenttoleranser påverkar resultatet. Det gör beräkningen lättare att följa och visar vilken marginal som faktiskt finns.
+:::
+
+## Verkningsgrad {#sec-effekt-verkningsgrad}
+
+All tillförd energi blir inte alltid användbar för det vi vill åstadkomma. I en motor kan exempelvis en del bli mekaniskt arbete och en del bli värme.
+
+**Verkningsgrad**, $\eta$, anger hur stor andel av den tillförda effekten som blir nyttig uteffekt:
+
+$$
+\boxed{\eta
+= \frac{P_\mathrm{nyttig}}{P_\mathrm{in}}}.
+$$
+
+Verkningsgraden är dimensionslös och anges ofta i procent.
+
+Vad som räknas som nyttig effekt beror på tillämpningen. Värme är exempelvis önskad i ett värmeelement, men ofta en förlust i ett spänningsaggregat.
+
+För ett system i stationär drift kan effektbalansen skrivas
+
+$$
+P_\mathrm{in}
+= P_\mathrm{nyttig}
++ P_\mathrm{förlust}.
+$$
+
+Därmed blir **förlusteffekten**
+
+$$
+\boxed{P_\mathrm{förlust}
+= P_\mathrm{in} - P_\mathrm{nyttig}}.
+$$
+
+::: {.callout-note title="Exempel: verkningsgrad hos en spänningsomvandlare" icon=false}
+En spänningsomvandlare tar emot effekten $P_\mathrm{in} = 10\,\mathrm{W}$ och levererar effekten $P_\mathrm{ut} = 8{,}5\,\mathrm{W}$ till lasten. Uteffekten räknas som nyttig.
+
+Verkningsgraden blir
+
+$$
+\eta
+= \frac{P_\mathrm{ut}}{P_\mathrm{in}}
+= \frac{8{,}5}{10}
+= 0{,}85
+= 85\,\%.
+$$
+
+Förlusteffekten blir
+
+$$
+P_\mathrm{förlust}
+= P_\mathrm{in} - P_\mathrm{ut}
+= (10 - 8{,}5)\,\mathrm{W}
+= 1{,}5\,\mathrm{W}.
+$$
+
+**Svar:** Verkningsgraden är $85\,\%$ och förlusteffekten är $1{,}5\,\mathrm{W}$.
+:::
+
+::: {.callout-important title="Förlorad energi har inte försvunnit"}
+När vi talar om energiförluster menar vi energi som inte blir nyttig för den avsedda funktionen.
+
+Energin finns fortfarande kvar, exempelvis som värme i komponenter och omgivning.
+:::
+
+## Sammanfattning {#sec-effekt-sammanfattning}
+
+- **Energi** beskriver hur mycket som överförs eller omvandlas.
+- **Effekt** beskriver hur snabbt energi överförs eller omvandlas.
+- Effekt mäts i **watt**, och energi kan exempelvis anges i **joule**, **wattimmar** eller **kilowattimmar**.
+- För konstant spänning och ström gäller $P = UI$.
+- För en ideal resistor gäller även $P = RI^2$ och $P = U^2/R$.
+- Effektens storlek anges som ett positivt belopp. Orden **avgiven** och **mottagen** beskriver energiöverföringens riktning.
+- När en spänningskälla driver en krets väljs strömmens positiva referensriktning ut ur källans pluspol.
+- I våra stationära kretsar är sammanlagd avgiven effekt lika stor som sammanlagd mottagen effekt.
+- Vid konstant effekt beräknas energin med $E = Pt$.
+- En resistors **märkeffekt** gäller under specificerade förhållanden. Temperatur och montering kan påverka tillåten belastning.
+- Dimensionering behöver ta hänsyn till marginaler och samtliga relevanta komponentgränser.
+- **Verkningsgrad** är nyttig uteffekt dividerad med tillförd effekt.
+
+| Samband | Uttryck och förutsättningar |
+|---|---|
+| Medelvärde av effekt | $P_\mathrm{medel} = \Delta E/\Delta t$ |
+| Elektrisk effekt vid likström | $P = UI$, med spänningens och strömmens belopp; ange mottagen eller avgiven effekt |
+| Effekt i en ideal resistor | $P = RI^2 = U^2/R$ |
+| Energi vid konstant effekt | $E = Pt$ |
+| Effektbalans | $\sum P_\mathrm{avgiven} = \sum P_\mathrm{mottagen}$, med positiva belopp |
+| Strömgräns från resistorns effektgräns | $I_\mathrm{max} = \sqrt{P_\mathrm{max}/R}$ |
+| Spänningsgräns från resistorns effektgräns | $U_\mathrm{max} = \sqrt{P_\mathrm{max}R}$ |
+| Verkningsgrad | $\eta = P_\mathrm{nyttig}/P_\mathrm{in}$ |
+| Förlusteffekt i stationär drift | $P_\mathrm{förlust} = P_\mathrm{in} - P_\mathrm{nyttig}$ |
+
+: Centrala samband för effekt och energi. {#tbl-effekt-energi-samband}
+
+## Övningar {#sec-effekt-ovningar}
+
+### Begrepp och förståelse {#sec-effekt-begrepp-och-forstaelse}
+
+1. Förklara skillnaden mellan energi och effekt.
+
+2. Vad innebär det att en apparat tar emot effekten $3\,\mathrm{W}$?
+
+3. Varför är det missvisande att säga att ström förbrukas i en resistor?
+
+4. En resistor är märkt $0{,}25\,\mathrm{W}$. Betyder det att den alltid utvecklar denna effekt? Motivera.
+
+5. Hur kan strömmens riktning i förhållande till en komponents spänningspolaritet visa om komponenten tar emot eller avger elektrisk effekt?
+
+6. Varför behöver du känna till vad som hålls konstant när du bedömer hur en resistansändring påverkar effekten?
+
+7. Vad menas med nyttig effekt och förlusteffekt? Ge ett exempel där värme är nyttig och ett där värme är en förlust.
+
+### Grundläggande beräkningar {#sec-effekt-grundlaggande-berakningar}
+
+8. En last är ansluten till $12\,\mathrm{V}$ och tar emot strömmen $150\,\mathrm{mA}$. Beräkna effekten.
+
+9. En resistor med resistansen $220\,\Omega$ har strömmen $20\,\mathrm{mA}$. Beräkna effekten.
+
+10. En resistor med resistansen $4{,}7\,\mathrm{k}\Omega$ ansluts till $24\,\mathrm{V}$. Beräkna strömmen och effekten.
+
+11. En apparat tar emot den konstanta effekten $8{,}0\,\mathrm{W}$ under $30\,\mathrm{min}$. Beräkna energin i joule och wattimmar.
+
+12. Omvandla:
+
+    a. $2{,}0\,\mathrm{Wh}$ till joule.
+
+    b. $7200\,\mathrm{J}$ till wattimmar.
+
+    c. $0{,}50\,\mathrm{kWh}$ till joule.
+
+### Effektöverföring och effektbalans {#sec-effekt-tecken-och-effektbalans}
+
+13. Ett batteri har spänningen $U = 5{,}0\,\mathrm{V}$. Strömmens referensriktning är ut ur batteriets pluspol. En kretsberäkning ger strömmen $I = -40\,\mathrm{mA}$.
+
+    a. Åt vilket håll går den verkliga strömmen genom batteriets plusanslutning?
+
+    b. Tar batteriet emot eller avger det elektrisk effekt?
+
+    c. Beräkna effektens storlek och ange om den är mottagen eller avgiven.
+
+14. En krets innehåller en källa som avger $2{,}4\,\mathrm{W}$ och två resistorer. Den första resistorn tar emot $0{,}90\,\mathrm{W}$.
+
+    a. Hur stor effekt tar den andra resistorn emot?
+
+    b. Skriv effektbalansen med positiva belopp för avgiven och mottagen effekt.
+
+### Dimensionering och tillämpning {#sec-effekt-dimensionering-och-tillampning}
+
+15. En resistor på $330\,\Omega$ ska anslutas till $12\,\mathrm{V}$.
+
+    a. Beräkna effekten.
+
+    b. Jämför med märkeffekterna $0{,}25\,\mathrm{W}$, $0{,}50\,\mathrm{W}$ och $1{,}0\,\mathrm{W}$. Vilka överstiger den beräknade effekten?
+
+    c. Vilken ytterligare information behöver du för att välja en lämplig resistor?
+
+16. En resistor har resistansen $2{,}2\,\mathrm{k}\Omega$ och får under aktuella förhållanden belastas med högst $0{,}25\,\mathrm{W}$.
+
+    a. Beräkna högsta ström utifrån effektgränsen.
+
+    b. Beräkna motsvarande spänning.
+
+    c. Varför är svaret i b inte tillräckligt för att fastställa komponentens maximala tillåtna arbetsspänning?
+
+17. Spänningen över en resistor ökar från $5{,}0\,\mathrm{V}$ till $10\,\mathrm{V}$. Resistansen är oförändrad.
+
+    a. Hur förändras strömmen?
+
+    b. Hur förändras effekten?
+
+18. En resistor ansluts till en ideal spänningskälla på $12\,\mathrm{V}$. Resistorns nominella resistans är $1000\,\Omega$ med toleransen $\pm 5\,\%$.
+
+    a. Vilket resistansvärde ger störst effekt?
+
+    b. Beräkna denna effekt.
+
+19. En omvandlare levererar $6{,}0\,\mathrm{W}$ till sin last och har verkningsgraden $80\,\%$.
+
+    a. Beräkna tillförd effekt.
+
+    b. Beräkna förlusteffekten.
+
+20. Två apparater används under ett dygn. Apparat A tar emot effekten $20\,\mathrm{W}$ under $2{,}0\,\mathrm{h}$. Apparat B tar emot effekten $3{,}0\,\mathrm{W}$ under $24\,\mathrm{h}$.
+
+    a. Vilken apparat har högst effekt?
+
+    b. Vilken använder mest energi under dygnet?
+
+    c. Förklara varför svaren blir olika.
