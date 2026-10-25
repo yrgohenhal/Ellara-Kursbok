@@ -12,6 +12,7 @@
 *.synctex.gz
 
 # KiCad: säkerhetskopior, lås och lokala inställningar
+**/_restore_backup_*/
 **/*-backups/
 *.kicad_prl
 *.lck
