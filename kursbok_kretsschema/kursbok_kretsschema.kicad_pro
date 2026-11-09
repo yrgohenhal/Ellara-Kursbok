@@ -429,7 +429,7 @@
         "uuid": "d3be2017-df6a-4457-bc45-f83d24f2e4c8"
       }
     ],
-    "used_designators": "#PWR2,U2-3,R1-4,#SYM1-6,#SYM8-17,BT1-2,I1-3,V1-2",
+    "used_designators": "Is1,RV1-2,#PWR2,#PWR4-12,U2-16,R1-22,R24-53,#SYM1-6,#SYM8-39,#SYM41-45,#SYM48,#SYM50,#SYM55-69,BT1-3,I1-3,V1-2",
     "variants": []
   },
   "sheets": [
@@ -440,6 +440,26 @@
     [
       "cadae269-432f-4c67-bf43-fc42caabb957",
       "01-bildmtrl"
+    ],
+    [
+      "a3d11997-f716-4280-b22d-b13ac3eff2f2",
+      "01-problem"
+    ],
+    [
+      "08173d50-4be6-4ed8-ae3a-771a68ee7190",
+      "03-bildmtrl"
+    ],
+    [
+      "13a2c41a-ec8e-46e6-9fa1-767a300105de",
+      "03-problem"
+    ],
+    [
+      "b7b504af-bf98-4e34-8530-3cbfd5c24664",
+      "04-bildmtrl"
+    ],
+    [
+      "e1f3fd4f-9630-4dd2-a505-1b5b76de5627",
+      "04-problem"
     ]
   ],
   "text_variables": {},

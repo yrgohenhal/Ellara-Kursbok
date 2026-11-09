@@ -1410,10 +1410,10 @@
 		(uuid "32542e11-1b2a-4080-8994-942a01e83061")
 	)
 	(junction
-		(at 44.45 102.87)
+		(at 44.45 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41bc0d5d-6102-4689-8fd1-cbf5e850712c")
+		(uuid "91c1d8ef-9645-4482-a1e0-49cefc064cbd")
 	)
 	(junction
 		(at 127 134.62)
@@ -1469,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 102.87) (xy 44.45 104.14)
+			(xy 44.45 104.14) (xy 44.45 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 96.52) (xy 67.31 102.87)
+			(xy 67.31 96.52) (xy 67.31 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 96.52) (xy 127 102.87)
+			(xy 127 96.52) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1629,6 +1629,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 101.6) (xy 44.45 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe77251-d428-422f-b150-6ea862a52a3c")
+	)
+	(wire
+		(pts
 			(xy 25.4 114.3) (xy 25.4 119.38)
 		)
 		(stroke
@@ -1636,16 +1646,6 @@
 			(type default)
 		)
 		(uuid "4109bd9b-3609-4d8a-bbad-283ea57a60ac")
-	)
-	(wire
-		(pts
-			(xy 44.45 102.87) (xy 44.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428248a5-39dc-4f01-a8df-69b2f2a88e17")
 	)
 	(wire
 		(pts
@@ -1659,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 102.87) (xy 44.45 102.87)
+			(xy 25.4 104.14) (xy 44.45 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 102.87) (xy 86.36 102.87)
+			(xy 67.31 104.14) (xy 86.36 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 96.52) (xy 25.4 102.87)
+			(xy 25.4 96.52) (xy 25.4 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 146.05 101.6)
+			(xy 146.05 104.14) (xy 146.05 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 102.87) (xy 146.05 102.87)
+			(xy 127 104.14) (xy 146.05 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 	)
 	(polyline
 		(pts
-			(xy 126.365 102.87) (xy 125.095 102.87)
+			(xy 126.365 104.14) (xy 125.095 104.14)
 		)
 		(stroke
 			(width 0.254)
@@ -2240,7 +2240,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 102.87) (xy 86.36 101.6)
+			(xy 86.36 104.14) (xy 86.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -28898,7 +28898,7 @@
 	)
 	(global_label "C"
 		(shape input)
-		(at 44.45 102.87 0)
+		(at 44.45 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -28908,7 +28908,7 @@
 		)
 		(uuid "12db03ac-7459-4885-80f8-f6065c136b44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.7052 102.87 0)
+			(at 48.7052 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28994,7 +28994,7 @@
 	)
 	(global_label "C"
 		(shape input)
-		(at 86.36 102.87 0)
+		(at 86.36 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -29004,7 +29004,7 @@
 		)
 		(uuid "98e046bc-b017-4379-b484-80f88a7e864a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.6152 102.87 0)
+			(at 90.6152 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30744,7 +30744,7 @@
 	)
 	(symbol
 		(lib_id "Graphic:SYM_Arrow_Normal")
-		(at 125.73 100.33 90)
+		(at 125.73 101.6 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -30755,7 +30755,7 @@
 		(fields_autoplaced yes)
 		(uuid "6723da09-558c-4129-b9dd-b39e93f5f88f")
 		(property "Reference" "#SYM4"
-			(at 124.206 100.33 0)
+			(at 124.206 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30766,7 +30766,7 @@
 			)
 		)
 		(property "Value" "SYM_Arrow_Normal"
-			(at 127 100.076 0)
+			(at 127 101.346 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30777,7 +30777,7 @@
 			)
 		)
 		(property "Footprint" "Package_LCC:PLCC-84_29.3x29.3mm_P1.27mm"
-			(at 125.73 100.33 0)
+			(at 125.73 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30788,7 +30788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 100.33 0)
+			(at 125.73 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30799,18 +30799,7 @@
 			)
 		)
 		(property "Description" "Filled arrow, 200mil"
-			(at 125.73 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 125.73 100.33 0)
+			(at 125.73 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31530,7 +31519,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 44.45 104.14 0)
+		(at 44.45 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31541,7 +31530,7 @@
 		(fields_autoplaced yes)
 		(uuid "8da5bed9-d510-4598-95e9-6b02f93d5539")
 		(property "Reference" "#PWR01"
-			(at 44.45 110.49 0)
+			(at 44.45 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31552,7 +31541,7 @@
 			)
 		)
 		(property "Value" "Earth"
-			(at 44.45 109.22 0)
+			(at 44.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31563,7 +31552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 104.14 0)
+			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31574,7 +31563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 104.14 0)
+			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31585,7 +31574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 44.45 104.14 0)
+			(at 44.45 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

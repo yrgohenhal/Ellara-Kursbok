@@ -24,3 +24,5 @@ _autosave-*
 # Operativsystem
 .DS_Store
 Thumbs.db
+
+**/*.quarto_ipynb

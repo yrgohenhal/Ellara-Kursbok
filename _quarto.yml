@@ -11,10 +11,10 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - summary.qmd
     - 01-grunder.qmd
     - 02-effekt-och-energi.qmd
-    - references.qmd
+    - 03-resistorkopplingar.qmd
+    - 04-tvapoler-och-ekvivalenta-kallor.qmd
 
 lang: sv
 
@@ -51,6 +51,8 @@ format:
             justification=raggedright,
             singlelinecheck=false
           }
+
+          \usepackage{needspace}
 
     tbl-cap-location: top
     fig-cap-location: bottom

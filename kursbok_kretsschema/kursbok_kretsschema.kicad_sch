@@ -379,7 +379,7 @@
 	)
 	(symbol
 		(lib_id "User_Library:VDC")
-		(at 38.1 53.34 0)
+		(at 41.91 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -390,7 +390,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ef4690a-77ed-4c04-8c3d-08ac5f70c901")
 		(property "Reference" "V1"
-			(at 41.91 52.0699 0)
+			(at 45.72 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -401,7 +401,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 41.91 54.6099 0)
+			(at 45.72 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -412,7 +412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 53.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -423,7 +423,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 38.1 53.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -434,7 +434,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 38.1 53.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -445,7 +445,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 38.1 53.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -456,7 +456,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 38.1 53.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -467,7 +467,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 38.1 53.34 0)
+			(at 41.91 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -495,7 +495,7 @@
 	)
 	(symbol
 		(lib_id "User_Library:IDC")
-		(at 30.48 53.34 0)
+		(at 26.67 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -506,7 +506,7 @@
 		(fields_autoplaced yes)
 		(uuid "8bfaa7ed-2f67-4d86-b774-9f8661adc77b")
 		(property "Reference" "I1"
-			(at 34.29 52.0699 0)
+			(at 30.48 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -517,7 +517,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 34.29 54.6099 0)
+			(at 30.48 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -528,7 +528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 53.34 0)
+			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -539,7 +539,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 30.48 53.34 0)
+			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -550,7 +550,7 @@
 			)
 		)
 		(property "Description" "Current source, DC"
-			(at 30.48 53.34 0)
+			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -561,7 +561,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 30.48 53.34 0)
+			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -572,7 +572,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 30.48 53.34 0)
+			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -583,7 +583,7 @@
 			)
 		)
 		(property "Sim.Device" "I"
-			(at 30.48 53.34 0)
+			(at 26.67 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -609,7 +609,191 @@
 		)
 	)
 	(sheet
-		(at 63.5 63.5)
+		(at 48.26 20.32)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "08173d50-4be6-4ed8-ae3a-771a68ee7190")
+		(property "Sheetname" "03-bildmtrl"
+			(at 48.26 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03-bildmtrl.kicad_sch"
+			(at 48.26 27.2546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kursbok_kretsschema"
+				(path "/d3be2017-df6a-4457-bc45-f83d24f2e4c8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 34.29)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "13a2c41a-ec8e-46e6-9fa1-767a300105de")
+		(property "Sheetname" "03-problem"
+			(at 48.26 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03-problem.kicad_sch"
+			(at 48.26 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kursbok_kretsschema"
+				(path "/d3be2017-df6a-4457-bc45-f83d24f2e4c8"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 34.29)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a3d11997-f716-4280-b22d-b13ac3eff2f2")
+		(property "Sheetname" "01-problem"
+			(at 19.05 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01-problem.kicad_sch"
+			(at 19.05 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kursbok_kretsschema"
+				(path "/d3be2017-df6a-4457-bc45-f83d24f2e4c8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 20.32)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b7b504af-bf98-4e34-8530-3cbfd5c24664")
+		(property "Sheetname" "04-bildmtrl"
+			(at 77.47 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04-bildmatrl.kicad_sch"
+			(at 77.47 27.2546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kursbok_kretsschema"
+				(path "/d3be2017-df6a-4457-bc45-f83d24f2e4c8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 19.05 20.32)
 		(size 12.7 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -625,7 +809,7 @@
 		)
 		(uuid "cadae269-432f-4c67-bf43-fc42caabb957")
 		(property "Sheetname" "01-bildmtrl"
-			(at 63.5 62.7884 0)
+			(at 19.05 19.6084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -636,7 +820,7 @@
 			)
 		)
 		(property "Sheetfile" "01-bildmtrl.kicad_sch"
-			(at 63.5 70.4346 0)
+			(at 19.05 27.2546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -650,6 +834,52 @@
 			(project "kursbok_kretsschema"
 				(path "/d3be2017-df6a-4457-bc45-f83d24f2e4c8"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 33.655)
+		(size 12.7 6.985)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e1f3fd4f-9630-4dd2-a505-1b5b76de5627")
+		(property "Sheetname" "04-problem"
+			(at 77.47 32.9434 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04-problem.kicad_sch"
+			(at 77.47 41.2246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kursbok_kretsschema"
+				(path "/d3be2017-df6a-4457-bc45-f83d24f2e4c8"
+					(page "7")
 				)
 			)
 		)

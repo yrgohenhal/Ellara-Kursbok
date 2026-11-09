@@ -449,7 +449,7 @@ $$
 I = -2{,}0\,\mathrm{mA}
 $$
 
-betyder det att strömmen är $3\,\mathrm{mA}$ i motsatt riktning mot den valda referensriktningen, se @fig-grunder-negativ-strom.
+betyder det att strömmen är $2{,}0\,\mathrm{mA}$ i motsatt riktning mot den valda referensriktningen, se @fig-grunder-negativ-strom.
 
 ![Den verkliga strömmen i kretsarna är medurs. Men samma verkliga ström kan beskrivas med ett positivt eller negativt värde beroende på vald referensriktning.](_bilder/01-negativ-strom.png){#fig-grunder-negativ-strom width=16cm fig-align="left"}
 
@@ -1026,7 +1026,7 @@ Ett negativt svar ska tolkas utifrån de riktningar och polariteter som valts. B
 
 8. Skriv följande värden utan prefix:
 
-   a. $4{,}7\,\mathrm{k}\Omega$ b. $250\,\mathrm{mA}$ c. $680\,\mathrm{\mu A}$ d. $2{,}2\,\mathrm{M}\Omega$
+   a. $4{,}7\,\mathrm{k}\Omega$ b. $250\,\mathrm{mA}$ c. $680\,\mu\mathrm{A}$ d. $2{,}2\,\mathrm{M}\Omega$
 
 9. Skriv med lämpligt SI-prefix:
 
@@ -1108,3 +1108,572 @@ Ett negativt svar ska tolkas utifrån de riktningar och polariteter som valts. B
     b. Resistorn ersätts med en resistor på $4{,}7\,\mathrm{k}\Omega$. Beräkna den nya spänningen.
 
     c. En verklig strömkälla kan som mest ge $15\,\mathrm{V}$ över lasten. Kan den upprätthålla strömmen $5{,}0\,\mathrm{mA}$ i båda fallen? Motivera med dina beräkningar.
+
+25. Ställ upp strömlagen och bestäm $I_3$.
+
+![](_bilder/01_uppg_25.png){width=7cm fig-align="center"}
+
+```{=latex}
+\needspace{6cm}
+```
+
+26. Skriv upp Kirchhoffs strömlag och bestäm $I_5$
+    ![](_bilder/01_uppg_26.png){width=8cm fig-align="center"}
+
+27. Bestäm $I_3$.
+    ![](_bilder/01_uppg_27.png){width=7cm fig-align="center"}
+
+28. Bestäm $I_3$ och $I_5$ med hjälp av Kirchhoffs strömlag.
+    ![](_bilder/01_uppg_28.png){width=7cm fig-align="center"}
+
+```{=latex}
+\needspace{6cm}
+```
+
+29. Utgå från jord och ställ upp Kirchhoffs spänningslag för båda vandringsriktningarna. Bestäm sedan $U_3$.
+    ![](_bilder/01_uppg_29.png){width=6cm fig-align="center"}
+
+30. Bestäm resistorns spänning och ström med referensriktningar enligt kretsschemat.
+    ![](_bilder/01_uppg_30.png){width=6cm fig-align="center"}
+
+```{=latex}
+\needspace{6cm}
+```
+
+31. Bestäm $U_{AB}$ och strömmen i referensriktningen. Förklara tecknen.
+    ![](_bilder/01_uppg_31.png){width=7cm fig-align="center"}
+
+32. Bestäm $U_x$.
+    Förklara vad det hade inneburit för okända källan Ux om detta spänningsvärde hade blivit negativt.
+    ![](_bilder/01_uppg_32.png){width=7cm fig-align="center"}
+
+
+```{=latex}
+\needspace{6cm}
+```
+
+33. Bestäm strömmen. Bestäm även potentialerna med C som referens samt $U_{AB}$, $U_{BC}$ och $U_{BA}$.
+    ![](_bilder/01_uppg_33.png){width=7cm fig-align="center"}   
+
+34. Bestäm spänningen över varje resistor och resistansen $R_2$.
+    ![](_bilder/01_uppg_34.png){width=7cm fig-align="center"}
+
+35. Bestäm samtliga grenströmmar och strömmen från spänningskällan.
+    ![](_bilder/01_uppg_35.png){width=13cm fig-align="center"}
+
+
+```{=latex}
+\needspace{6cm}
+```
+
+36. Uttryck båda resistorströmmarna med potantialen $V_A$. Bestäm sedan nodpotentialen i nod A, grenströmmarna och spänningen över strömkällan.
+    ![](_bilder/01_uppg_36.png){width=10cm fig-align="center"}
+
+37. Anta referensriktningar ut från X genom samtliga resistorer. Bestäm uttryck för $V_X$ med hjälp av strömlagen. Beräkna sedan strömmarna och tolka deras tecken.   
+    ![](_bilder/01_uppg_37.png){width=10cm fig-align="center"}
+
+```{=latex}
+\needspace{6cm}
+```
+
+38. Markera de tre grenströmmarna vid X enligt vad du antar är strömmarnas verkliga riktningar. Ställ upp strömlagen vid X samt spänningslagen för vänster respektive höger slinga. Lös ekvationerna för att hitta de tre strömmarna.
+    ![](_bilder/01_uppg_38.png){width=10cm fig-align="center"}
+
+## Facit {#sec-facit-grunder}
+
+Facit till uppgift 1–38 i avsnitt 3.16.
+
+### Begrepp och förståelse {#sec-facit-grunder-begrepp}
+
+1. Elektrisk laddning $Q$ är en storhet som mäts i coulomb. Elektrisk ström $I$ beskriver hur mycket laddning som passerar ett tvärsnitt per tidsenhet och mäts i ampere. För medelström gäller $I_\mathrm{medel}=\Delta Q/\Delta t$.
+
+
+2. Den definierade, konventionella strömmen går åt **höger**, motsatt elektronernas rörelse.
+
+
+3. Potential anger en punkts elektriska potential relativt en vald referens. Spänning är potentialskillnaden mellan två punkter: $U_{AB}=V_A-V_B$. Båda mäts i volt.
+
+
+4. Ja. Negativ potential betyder att punkten ligger på lägre potential än den valda referenspunkten. Det är inte i sig ett fel.
+
+
+5. Alla potentialvärden förskjuts med samma belopp så att den nya referenspunkten får potentialen noll. Spänningarna mellan punkterna och strömmarna är oförändrade. Detta gäller byte av referens i beräkningen, utan fysisk ändring av kretsen.
+
+
+6. Vi behöver veta den valda positiva referensriktningen. Strömmen är $8\,\mathrm{mA}$ i motsatt riktning mot denna.
+
+
+7. Alla komponenter har inte ett linjärt samband mellan ström och spänning. Exempelvis kan en diods ström inte beskrivas med ett konstant resistansvärde över hela arbetsområdet. Även en resistors resistans kan ändras med temperatur.
+
+
+### Enheter och grundläggande beräkningar {#sec-facit-grunder-enheter}
+
+8. Svar:
+
+    a. $4700\,\Omega$.
+
+    b. $0{,}250\,\mathrm{A}$.
+
+    c. $0{,}000680\,\mathrm{A}$.
+
+    d. $2\,200\,000\,\Omega$.
+
+9. Svar:
+
+    a. $3{,}3\,\mathrm{mA}$.
+
+    b. $47\,\mathrm{k}\Omega$.
+
+    c. $2{,}2\,\mu\mathrm{A}$.
+
+10. Beräkning:
+
+    $$
+    Q=It=(0{,}040\cdot15)\,\mathrm{C}=0{,}60\,\mathrm{C}.
+    $$
+
+11. Beräkning:
+
+    $$
+    I_\mathrm{medel}=\frac{\Delta Q}{\Delta t}
+    =\frac{0{,}60}{3{,}0}\,\mathrm{A}=0{,}20\,\mathrm{A}=200\,\mathrm{mA}.
+    $$
+
+12. Beräkning:
+
+    $$
+    I=\frac{U}{R}=\frac{12}{3300}\,\mathrm{A}\approx3{,}64\,\mathrm{mA}.
+    $$
+
+13. Beräkning:
+
+    $$
+    U=RI=(470\cdot0{,}015)\,\mathrm{V}=7{,}05\,\mathrm{V}.
+    $$
+
+14. Beräkning:
+
+    $$
+    R=\frac{U}{I}=\frac{8{,}0}{0{,}0020}\,\Omega=4000\,\Omega=4{,}0\,\mathrm{k}\Omega.
+    $$
+
+    $$
+    G=\frac{1}{R}=\frac{1}{4000}\,\mathrm{S}=0{,}00025\,\mathrm{S}=250\,\mu\mathrm{S}.
+    $$
+
+### Potentialer och Kirchhoffs lagar {#sec-facit-grunder-potentialer}
+
+15. Beräkning:
+
+    $$
+    U_{AB}=V_A-V_B=(12-3)\,\mathrm{V}=9\,\mathrm{V}.
+    $$
+
+    $$
+    U_{BC}=V_B-V_C=\bigl(3-(-2)\bigr)\,\mathrm{V}=5\,\mathrm{V}.
+    $$
+
+    $$
+    U_{CA}=V_C-V_A=(-2-12)\,\mathrm{V}=-14\,\mathrm{V}.
+    $$
+
+16. Den gamla potentialen i C subtraheras från samtliga potentialer:
+
+    $$
+    V'_A=14\,\mathrm{V},\qquad V'_B=5\,\mathrm{V},\qquad V'_C=0\,\mathrm{V}.
+    $$
+
+    Kontroll:
+
+    $$
+    U_{AB}=V'_A-V'_B=(14-5)\,\mathrm{V}=9\,\mathrm{V}.
+    $$
+
+17. Beräkning:
+
+    $$
+    I_\mathrm{ut}=(18+7-10)\,\mathrm{mA}=15\,\mathrm{mA}.
+    $$
+
+    Ytterligare $15\,\mathrm{mA}$ måste gå **ut** ur noden.
+
+18. Beräkning:
+
+    $$
+    I_1=I_2+I_3
+    \quad\Rightarrow\quad
+    I_3=(6-9)\,\mathrm{mA}=-3\,\mathrm{mA}.
+    $$
+
+    Den verkliga strömmen är $3\,\mathrm{mA}$ **in** i noden, motsatt referenspilen. Kontroll: $(6+3)\,\mathrm{mA}=9\,\mathrm{mA}$.
+
+19. Beräkning:
+
+    $$
+    15\,\mathrm{V}-6{,}0\,\mathrm{V}-U_2=0
+    \quad\Rightarrow\quad U_2=9{,}0\,\mathrm{V}.
+    $$
+
+### Tillämpning och problemlösning {#sec-facit-grunder-tillampning}
+
+20. Beräkning:
+
+    a. Med referensriktningen A till B:
+
+    $$
+    I=\frac{V_A-V_B}{R}=\frac{2{,}0-8{,}0}{2000}\,\mathrm{A}=-3{,}0\,\mathrm{mA}.
+    $$
+
+    b. Den verkliga strömmen är $3{,}0\,\mathrm{mA}$ från **B till A**.
+
+    c. Med referensriktningen B till A blir strömmen $+3{,}0\,\mathrm{mA}$.
+
+21. Beräkning:
+
+    a. Strömvägen omfattar båda ledarna, alltså sammanlagt $10\,\mathrm{m}$:
+
+    $$
+    R_\mathrm{ledare}=\rho\frac{l_\mathrm{tot}}{A}
+    =\frac{0{,}0175\cdot10}{0{,}50}\,\Omega=0{,}35\,\Omega.
+    $$
+
+    b. Det sammanlagda spänningsfallet blir
+
+    $$
+    U_\mathrm{ledare}=R_\mathrm{ledare}I=(0{,}35\cdot2{,}0)\,\mathrm{V}=0{,}70\,\mathrm{V}.
+    $$
+
+    c. Lastspänningen blir
+
+    $$
+    U_\mathrm{last}=U_\mathrm{källa}-U_\mathrm{ledare}=(12{,}0-0{,}70)\,\mathrm{V}=11{,}3\,\mathrm{V}.
+    $$
+
+22. Beräkning:
+
+    a. Några volt över flera kiloohm ger en ström i milliampereområdet. En ström på $1{,}06\,\mathrm{A}$ genom $4{,}7\,\mathrm{k}\Omega$ skulle kräva ungefär $4980\,\mathrm{V}$.
+
+    b. Rätt ström är
+
+    $$
+    I=\frac{U}{R}=\frac{5{,}0}{4700}\,\mathrm{A}\approx1{,}06\,\mathrm{mA}.
+    $$
+
+    c. Ett möjligt fel är att mata in $4{,}7$ i stället för $4700$ som resistans i ohm. Ett annat är att räkna volt dividerat med kiloohm och felaktigt ange resultatet i ampere i stället för milliampere.
+
+23. Beräkning:
+
+    a. En ideal spänningskälla håller **spänningen** konstant. En ideal strömkälla håller **strömmen** konstant.
+
+    b. Vid konstant spänning halveras strömmen när resistansen fördubblas, eftersom $I=U/R$.
+
+    c. Vid konstant ström fördubblas spänningen när resistansen fördubblas, eftersom $U=RI$.
+
+24. a.
+
+    $$
+    U=RI=(2200\cdot0{,}0050)\,\mathrm{V}=11\,\mathrm{V}.
+    $$
+
+     b.
+
+    $$
+    U=RI=(4700\cdot0{,}0050)\,\mathrm{V}=23{,}5\,\mathrm{V}.
+    $$
+
+    c. Källan kan hålla $5{,}0\,\mathrm{mA}$ genom $2{,}2\,\mathrm{k}\Omega$, eftersom $11\,\mathrm{V}<15\,\mathrm{V}$. Den kan inte hålla samma ström genom $4{,}7\,\mathrm{k}\Omega$, eftersom den erforderliga spänningen är $23{,}5\,\mathrm{V}$. Vid $15\,\mathrm{V}$ är strömmen genom denna resistor bara cirka $3{,}19\,\mathrm{mA}$.
+
+25. Beräkning:
+
+    $$
+    I_1=I_2+I_3
+    \quad\Rightarrow\quad
+    I_3=(18-5)\,\mathrm{mA}=13\,\mathrm{mA}.
+    $$
+
+    Strömmen går nedåt enligt pilen.
+
+26. Beräkning:
+
+    $$
+    I_1+I_2=I_3+I_4+I_5.
+    $$
+
+    $$
+    I_5=(12+7-4-9)\,\mathrm{mA}=6\,\mathrm{mA}.
+    $$
+
+    Strömmen går ut från noden längs den sneda grenen. Algebraisk form: $I_1+I_2-I_3-I_4-I_5=0$.
+
+27. Beräkning:
+
+    $$
+    I_1=I_2+I_3
+    \quad\Rightarrow\quad
+    I_3=(6-10)\,\mathrm{mA}=-4\,\mathrm{mA}.
+    $$
+
+    Den verkliga strömmen är $4\,\mathrm{mA}$ **uppåt**, in i noden. Kontroll: $(6+4)\,\mathrm{mA}=10\,\mathrm{mA}$.
+
+28. Vid övre noden:
+
+    $$
+    I_1=I_2+I_3
+    \quad\Rightarrow\quad I_3=(20-7)\,\mathrm{mA}=13\,\mathrm{mA}.
+    $$
+
+    Vid nedre noden:
+
+    $$
+    I_3=I_4+I_5
+    \quad\Rightarrow\quad I_5=(13-5)\,\mathrm{mA}=8\,\mathrm{mA}.
+    $$
+
+    $I_3$ går nedåt och $I_5$ åt vänster enligt pilarna. Kontroll för båda noderna tillsammans: $20\,\mathrm{mA}=(7+5+8)\,\mathrm{mA}$.
+
+29. Medurs från jord, genom källan först:
+
+    $$
+    U-U_1-U_2-U_3=0.
+    $$
+
+    Moturs från jord, genom resistorerna först:
+
+    $$
+    U_3+U_2+U_1-U=0.
+    $$
+
+    Båda ger
+
+    $$
+    U_3=U-U_1-U_2=(18-4-6)\,\mathrm{V}=8\,\mathrm{V}.
+    $$
+
+30. Källorna samverkar med de ritade polariteterna:
+
+    $$
+    U = U_1 + U_2
+    = (5 + 7)\,\mathrm{V}
+    = 12\,\mathrm{V}.
+    $$
+
+    Strömmen blir
+
+    $$
+    I = \frac{U}{R}
+    = \frac{12}{3000}\,\mathrm{A}
+    = 4{,}0\,\mathrm{mA}.
+    $$
+
+    Strömmen är positiv och går i referenspilens riktning.
+    
+31. Den nedre källan har plus vid referensnoden B. Punkten mellan källorna har därför potentialen $-9\,\mathrm{V}$. Den övre källan höjer potentialen med $5\,\mathrm{V}$:
+
+    $$
+    V_A=(-9+5)\,\mathrm{V}=-4\,\mathrm{V},\qquad V_B=0\,\mathrm{V}.
+    $$
+
+    $$
+    U_{AB}=V_A-V_B=-4\,\mathrm{V}.
+    $$
+
+    $$
+    I=\frac{U_{AB}}{R_1}=\frac{-4}{2000}\,\mathrm{A}=-2{,}0\,\mathrm{mA}.
+    $$
+
+    B ligger $4\,\mathrm{V}$ högre än A. Den verkliga strömmen är $2{,}0\,\mathrm{mA}$ från B till A genom resistorn, motsatt referensriktningen.
+
+32. Beräkning:
+
+    $$
+    U_x+U-U_1-U_2=0.
+    $$
+
+    $$
+    U_x=U_1+U_2-U=(5+9-8)\,\mathrm{V}=6\,\mathrm{V}.
+    $$
+
+    Ett negativt värde hade inneburit att källans verkliga polaritet är motsatt den ritade: den nedre anslutningen hade då legat på högre potential än den övre.
+
+33. Strömmen är densamma genom båda resistorerna. Spänningslagen ger
+
+    $$
+    U-R_1I-R_2I=0
+    \quad\Rightarrow\quad
+    I=\frac{U}{R_1+R_2}=\frac{12}{1000+2000}\,\mathrm{A}=4{,}0\,\mathrm{mA}.
+    $$
+
+    Med C som referens:
+
+    $$
+    V_C=0\,\mathrm{V},\qquad V_A=12\,\mathrm{V},\qquad
+    V_B=R_2I=(2000\cdot0{,}0040)\,\mathrm{V}=8{,}0\,\mathrm{V}.
+    $$
+
+    $$
+    U_{AB}=4{,}0\,\mathrm{V},\qquad U_{BC}=8{,}0\,\mathrm{V},\qquad U_{BA}=-4{,}0\,\mathrm{V}.
+    $$
+
+    Kontroll: $(12-4-8)\,\mathrm{V}=0\,\mathrm{V}$.
+
+34. Beräkning:
+
+    $$
+    U_1=R_1I=(2000\cdot0{,}0030)\,\mathrm{V}=6{,}0\,\mathrm{V}.
+    $$
+
+    $$
+    U_2=U-U_1=(15-6{,}0)\,\mathrm{V}=9{,}0\,\mathrm{V}.
+    $$
+
+    $$
+    R_2=\frac{U_2}{I}=\frac{9{,}0}{0{,}0030}\,\Omega=3{,}0\,\mathrm{k}\Omega.
+    $$
+
+    Kontroll: $(15-6-9)\,\mathrm{V}=0\,\mathrm{V}$.
+
+35. Samtliga resistorer är anslutna direkt över källan och har därför spänningen $12\,\mathrm{V}$.
+
+    $$
+    I_1=\frac{U}{R_1}=\frac{12}{2000}\,\mathrm{A}=6{,}0\,\mathrm{mA}.
+    $$
+
+    $$
+    I_2=\frac{U}{R_2}=\frac{12}{3000}\,\mathrm{A}=4{,}0\,\mathrm{mA}.
+    $$
+
+    $$
+    I_3=\frac{U}{R_3}=\frac{12}{6000}\,\mathrm{A}=2{,}0\,\mathrm{mA}.
+    $$
+
+    Strömlagen ger källströmmen
+
+    $$
+    I=I_1+I_2+I_3=(6{,}0+4{,}0+2{,}0)\,\mathrm{mA}=12\,\mathrm{mA}.
+    $$
+
+    Samtliga strömmar är positiva enligt pilarna.
+
+36. Välj resistorströmmarna från A ned till referensen:
+
+    $$
+    I_1=\frac{V_A}{R_1},\qquad I_2=\frac{V_A}{R_2}.
+    $$
+
+    Kirchhoffs strömlag ger
+
+    $$
+    I=I_1+I_2=\frac{V_A}{R_1}+\frac{V_A}{R_2}.
+    $$
+
+    $$
+    V_A=\frac{I}{1/R_1+1/R_2}
+    =\frac{0{,}0060}{1/1000+1/2000}\,\mathrm{V}=4{,}0\,\mathrm{V}.
+    $$
+
+    $$
+    I_1=4{,}0\,\mathrm{mA},\qquad I_2=2{,}0\,\mathrm{mA}.
+    $$
+
+    Spänningen över strömkällan är $4{,}0\,\mathrm{V}$, med plus vid A och minus vid referensen. Kontroll: $6{,}0\,\mathrm{mA}=(4{,}0+2{,}0)\,\mathrm{mA}$.
+
+37. Definiera $I_1$, $I_2$ och $I_3$ **ut från X** genom respektive resistor. Då gäller
+
+    $$
+    I_1=\frac{V_X-U_1}{R_1},\qquad
+    I_2=\frac{V_X-U_2}{R_2},\qquad
+    I_3=\frac{V_X}{R_3}.
+    $$
+
+    Strömlagen vid X:
+
+    $$
+    \frac{V_X-U_1}{R_1}+\frac{V_X-U_2}{R_2}+\frac{V_X}{R_3}=0.
+    $$
+
+    Allmänt uttryck för nodpotentialen:
+
+    $$
+    V_X=\frac{U_1/R_1+U_2/R_2}{1/R_1+1/R_2+1/R_3}.
+    $$
+
+    Med samtliga resistorer lika med $1\,\mathrm{k}\Omega$ fås
+
+    $$
+    V_X=\frac{12+6+0}{3}\,\mathrm{V}=6{,}0\,\mathrm{V}.
+    $$
+
+    $$
+    I_1=\frac{6-12}{1000}\,\mathrm{A}=-6{,}0\,\mathrm{mA},\qquad
+    I_2=0\,\mathrm{mA},\qquad I_3=6{,}0\,\mathrm{mA}.
+    $$
+
+    Den verkliga strömmen genom $R_1$ går från 12 V-noden **in till X**. Genom $R_2$ går ingen ström, eftersom båda ändarna har potentialen $6\,\mathrm{V}$. Genom $R_3$ går strömmen från X till referensen.
+
+    Kontroll: $(-6+0+6)\,\mathrm{mA}=0\,\mathrm{mA}$.
+
+38. Välj följande referensriktningar som antagna verkliga riktningar:
+
+    - $I_1$: från 12 V-källans plusnod till X genom $R_1$.
+    - $I_2$: från X till 6 V-källans plusnod genom $R_2$.
+    - $I_3$: från X ned till referensen genom $R_3$.
+
+    Kirchhoffs strömlag vid X:
+
+    $$
+    I_1=I_2+I_3.
+    $$
+
+    Vänster slinga, från referensen genom 12 V-källan, $R_1$ och $R_3$:
+
+    $$
+    12\,\mathrm{V}-R_1I_1-R_3I_3=0.
+    $$
+
+    Höger slinga, från referensen genom 6 V-källan, $R_2$ mot $I_2$ och sedan $R_3$:
+
+    $$
+    6\,\mathrm{V}+R_2I_2-R_3I_3=0.
+    $$
+
+    Använd $I_1=I_2+I_3$ i vänstra slingekvationen. Med resistansvärdena i schemat blir de två ekvationerna
+
+    $$
+    (1\,\mathrm{k}\Omega)I_2+(3\,\mathrm{k}\Omega)I_3=12\,\mathrm{V},
+    $$
+
+    $$
+    -(2\,\mathrm{k}\Omega)I_2+(2\,\mathrm{k}\Omega)I_3=6\,\mathrm{V}.
+    $$
+
+    Den andra ekvationen ger $I_3-I_2=3\,\mathrm{mA}$. Insättning i den första ger
+
+    $$
+    I_3=3{,}75\,\mathrm{mA},\qquad
+    I_2=0{,}75\,\mathrm{mA},\qquad
+    I_1=4{,}50\,\mathrm{mA}.
+    $$
+
+    Alla tre värden är positiva: de antagna riktningarna stämmer. Nodpotentialen blir
+
+    $$
+    V_X=R_3I_3=(2000\cdot0{,}00375)\,\mathrm{V}=7{,}50\,\mathrm{V}.
+    $$
+
+    Kontroll av strömlagen:
+
+    $$
+    4{,}50\,\mathrm{mA}=(0{,}75+3{,}75)\,\mathrm{mA}.
+    $$
+
+    Kontroll av vänster respektive höger slinga:
+
+    $$
+    (12-4{,}50-7{,}50)\,\mathrm{V}=0\,\mathrm{V},
+    $$
+
+    $$
+    (6+1{,}50-7{,}50)\,\mathrm{V}=0\,\mathrm{V}.
+    $$
+
+

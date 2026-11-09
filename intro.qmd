@@ -1,5 +1,68 @@
-# Introduction
+# Introduktion {.unnumbered #sec-introduktion}
 
-This is a book created from markdown and executable code.
+Ellära beskriver hur elektriska laddningar, strömmar och spänningar
+samverkar. Dessa samband ligger till grund för hur vi analyserar,
+konstruerar och felsöker elektriska och elektroniska kretsar.
 
-See @knuth84 for additional discussion of literate programming.
+Den här boken introducerar grundläggande begrepp och metoder
+för kretsanalys. Vi börjar med laddning, ström, potential, spänning
+och resistans. Därefter behandlas effekt och energi,
+resistorkopplingar och metoder för att analysera mer sammansatta
+kretsar. Kunskaperna används sedan för att beskriva och beräkna
+kretsar med tidsvarierande signaler.
+
+Målet är att du ska kunna förklara vad som händer i en krets,
+välja lämpliga samband och använda dem för att lösa problem.
+En viktig del är att kunna bedöma om ett resultat är rimligt
+och förstå vad det säger om kretsens funktion.
+
+## Att arbeta med boken {.unnumbered #sec-introduktion-arbetssatt}
+
+Varje kapitel innehåller förklaringar, centrala samband,
+räkneexempel och övningsuppgifter. Räkneexemplen visar både
+hur en beräkning genomförs och hur resultatet kan tolkas.
+
+Arbeta gärna med papper och penna när du läser. Rita av
+kretsscheman, markera strömriktningar och spänningspolariteter
+och försök genomföra beräkningarna själv innan du läser
+lösningen.
+
+När du löser en uppgift bör du:
+
+1. Identifiera vad som är känt och vad som söks.
+2. Rita eller komplettera kretsschemat med beteckningar,
+   referensriktningar och polariteter.
+3. Välja de samband som beskriver kretsen.
+4. Ställa upp och omforma uttrycken innan du sätter in talvärden.
+5. Redovisa beräkningen med korrekta enheter.
+6. Kontrollera resultatets enhet, storleksordning och betydelse.
+
+Facit hjälper dig att kontrollera svaren. Om ditt svar avviker,
+undersök var resonemanget eller beräkningen skiljer sig.
+Ett negativt ström- eller spänningsvärde kan exempelvis vara
+korrekt och visa att den verkliga riktningen eller polariteten
+är motsatt den du har valt.
+
+## Modeller och verkliga kretsar {.unnumbered #sec-introduktion-modeller}
+
+I boken använder vi modeller för att beskriva elektriska
+komponenter och kretsar. Vi kan exempelvis anta att en ledning
+saknar resistans eller att en spänningskälla håller sin spänning
+konstant oberoende av belastningen.
+
+Sådana förenklingar gör det möjligt att fokusera på de samband
+vi vill undersöka. När kunskaperna används i praktiska
+konstruktioner behöver vi också ta hänsyn till komponenternas
+toleranser, temperaturberoende och andra begränsningar.
+
+## Förkunskaper {.unnumbered #sec-introduktion-forkunskaper}
+
+Du behöver kunna använda grundläggande algebra, lösa enkla
+ekvationer och arbeta med bråk, potenser och kvadratrötter.
+Du behöver också kunna omvandla enheter och använda
+tiopotenser. Elektriska begrepp och beteckningar introduceras
+efter hand i boken.
+
+Använd gärna miniräknare som stöd, men skriv upp sambanden
+och följ enheterna genom beräkningen. Det gör det lättare
+att upptäcka fel och förstå resultatet.

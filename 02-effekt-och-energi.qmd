@@ -801,3 +801,386 @@ Energin finns fortfarande kvar, exempelvis som värme i komponenter och omgivnin
     b. Vilken använder mest energi under dygnet?
 
     c. Förklara varför svaren blir olika.
+
+### Kretsscheman, effektbalans och dimensionering {#sec-effekt-ovningar-kretsscheman}
+
+I uppgift 21–32 återanvänds kretsscheman från kapitlet *Elektriska storheter och grundläggande samband*. Hänvisningarna nedan avser uppgiftsnumren i det kapitlet. Använd idealmodeller om inget annat anges. Redovisa mottagen och avgiven effekt som positiva belopp och ange med ord åt vilket håll energiöverföringen sker. För energiuppgifterna antas konstant effekt.
+
+21. **Två resistorer i samma strömväg.** Använd schemat i grundkapitlets uppgift 33: en källa på $12\,\mathrm{V}$ och resistorerna $R_1=1\,\mathrm{k}\Omega$ och $R_2=2\,\mathrm{k}\Omega$ kopplade efter varandra.
+
+    a. Bestäm strömmen och spänningen över varje resistor.
+
+    b. Beräkna den mottagna effekten i varje resistor.
+
+    c. Beräkna källans avgivna effekt och kontrollera effektbalansen.
+
+    d. Vilken resistor utvecklar störst effekt? Förklara med ett lämpligt effektuttryck.
+
+22. **Dimensionera båda resistorerna.** Använd samma krets som i uppgift 21. För denna uppgift gäller att varje resistor får belastas med högst $50\,\%$ av sin märkeffekt. Anta att databladets övriga villkor är uppfyllda. Tillgängliga märkeffekter är $0{,}063\,\mathrm{W}$, $0{,}125\,\mathrm{W}$ och $0{,}25\,\mathrm{W}$.
+
+    a. Välj den minsta tillåtna märkeffekten för respektive resistor vid $12\,\mathrm{V}$.
+
+    b. Bestäm den högsta källspänning som uppfyller belastningskravet för båda valda resistorerna. Bortse från toleranser och separata spänningsgränser i denna beräkning.
+
+23. **Tre grenar med samma spänning.** Använd schemat i grundkapitlets uppgift 35 med $U=12\,\mathrm{V}$, $R_1=2\,\mathrm{k}\Omega$, $R_2=3\,\mathrm{k}\Omega$ och $R_3=6\,\mathrm{k}\Omega$.
+
+    a. Bestäm grenströmmarna och källströmmen.
+
+    b. Beräkna effekten i varje resistor och källans avgivna effekt. Kontrollera effektbalansen.
+
+    c. Vilken resistor utvecklar störst effekt? Förklara varför svaret skiljer sig från resonemanget i uppgift 21d.
+
+24. **Energi i flera grenar.** Kretsen i uppgift 23 är inkopplad under $8{,}0\,\mathrm{h}$.
+
+    a. Beräkna den energi varje resistor tar emot, uttryckt i wattimmar.
+
+    b. Beräkna källans sammanlagda avgivna energi i wattimmar och joule.
+
+    c. Hur mycket minskar källans avgivna energi under samma tid om grenen med $R_3$ kopplas bort? De andra grenarna är oförändrade.
+
+25. **En källa avger och en källa tar emot.** Använd schemat i grundkapitlets uppgift 31: två motverkande källor på $5\,\mathrm{V}$ och $9\,\mathrm{V}$ samt $R=2\,\mathrm{k}\Omega$. Behåll källornas polariteter enligt schemat.
+
+    a. Bestäm den verkliga strömriktningen och strömmens storlek.
+
+    b. Avgör för varje källa om den tar emot eller avger effekt. Beräkna effekternas storlek.
+
+    c. Beräkna resistorns effekt och kontrollera effektbalansen.
+
+    d. Beräkna den energi som 5 V-källan tar emot under $10\,\mathrm{min}$. Gör inget antagande om hur denna energi lagras eller omvandlas inne i källan.
+
+26. **Två samverkande källor.** Använd det uppdaterade schemat i grundkapitlets uppgift 30: två samverkande källor på $5\,\mathrm{V}$ och $7\,\mathrm{V}$ samt $R=3\,\mathrm{k}\Omega$.
+
+    a. Bestäm strömmen och effekten i resistorn.
+
+    b. Beräkna den avgivna effekten från vardera källan och kontrollera effektbalansen.
+
+    c. Jämför effekten i resistorn med fallet då endast 5 V-källan finns i slingan. Då ersätts 7 V-källan med en ideal ledning. Hur många gånger större är effekten med båda källorna?
+
+27. **En strömkälla och två resistorer.** Använd schemat i grundkapitlets uppgift 36: strömkällan matar $6{,}0\,\mathrm{mA}$ till nod A och resistorerna $R_1=1\,\mathrm{k}\Omega$ och $R_2=2\,\mathrm{k}\Omega$ är anslutna mellan A och referensen.
+
+    a. Bestäm nodpotentialen och resistorströmmarna.
+
+    b. Beräkna effekten i varje resistor och strömkällans avgivna effekt. Kontrollera effektbalansen.
+
+    c. Grenen med $R_2$ kopplas bort medan källströmmen förblir $6{,}0\,\mathrm{mA}$. Bestäm den nya nodpotentialen, effekten i $R_1$ och källans avgivna effekt. Förklara förändringen.
+
+28. **Samma ström, olika resistans.** Utgå från kopplingen i grundkapitlets uppgift 24: en strömkälla som driver en enda resistor. Källströmmen är $5{,}0\,\mathrm{mA}$.
+
+    a. Beräkna spänning och effekt för $R=2{,}2\,\mathrm{k}\Omega$ respektive $R=4{,}7\,\mathrm{k}\Omega$ med en ideal strömkälla.
+
+    b. Anta i stället en verklig källa som håller $5{,}0\,\mathrm{mA}$ så länge lastspänningen inte överstiger $15\,\mathrm{V}$. Vid större lastresistans begränsas spänningen till exakt $15\,\mathrm{V}$. Bestäm ström och effekt för båda resistorerna med denna modell.
+
+29. **En gren utan effektutveckling.** Använd schemat i grundkapitlets uppgift 37: källor på $12\,\mathrm{V}$ och $6\,\mathrm{V}$, båda med minus till referensen, samt tre resistorer på $1\,\mathrm{k}\Omega$ runt nod X.
+
+    a. Bestäm $V_X$ och strömmarna genom resistorerna.
+
+    b. Beräkna effekten i varje resistor. Förklara varför en av dem inte utvecklar någon effekt trots att den ingår i kretsen.
+
+    c. Bestäm mottagen eller avgiven effekt för vardera källan och kontrollera effektbalansen.
+
+30. **Effektbalans i två slingor.** Använd schemat i grundkapitlets uppgift 38: $V_A=12\,\mathrm{V}$, $V_B=6\,\mathrm{V}$, $R_1=1\,\mathrm{k}\Omega$ mellan A och X, $R_2=2\,\mathrm{k}\Omega$ mellan X och B samt $R_3=2\,\mathrm{k}\Omega$ mellan X och referensen.
+
+    a. Bestäm $V_X$ och de tre resistorströmmarna med hjälp av Kirchhoffs lagar.
+
+    b. Beräkna effekten i varje resistor.
+
+    c. Avgör om respektive källa tar emot eller avger effekt och beräkna effekterna.
+
+    d. Kontrollera effektbalansen. Förklara varför det vore fel att anta att båda källorna avger effekt.
+
+31. **Tolerans i en krets med två resistorer.** Använd kretsen i uppgift 21. Källspänningen är exakt $12\,\mathrm{V}$. $R_2$ är exakt $2\,\mathrm{k}\Omega$, men $R_1$ har nominellt värde $1\,\mathrm{k}\Omega$ och toleransen $\pm5\,\%$.
+
+    a. Beräkna strömmen och effekten i båda resistorerna för de två gränsvärdena på $R_1$.
+
+    b. Vid vilket av dessa fall blir effekten i respektive resistor störst? Förklara varför regeln ”lägre resistans ger högre effekt” inte kan användas direkt för $R_1$ i denna koppling.
+
+32. **Samma utgångsläge, olika källor.** Återanvänd kopplingarna i exemplen *Ideal spänningskälla* och *Ideal strömkälla* i grundkapitlet. I den ena kretsen driver en ideal källa på $10\,\mathrm{V}$ en resistor på $1\,\mathrm{k}\Omega$. I den andra driver en ideal strömkälla på $10\,\mathrm{mA}$ en likadan resistor.
+
+    a. Visa att resistorns ström, spänning och effekt är lika i de två kretsarna från början.
+
+    b. Resistansen fördubblas till $2\,\mathrm{k}\Omega$ i båda kretsarna. Beräkna nya strömmar, spänningar och effekter.
+
+    c. Förklara varför effekten minskar i den ena kretsen men ökar i den andra.
+
+## Facit – Effekt och energi {#sec-facit-effekt}
+
+Svar till befintliga uppgifter 1–20 i den uppladdade PDF:en och tilläggsuppgifter 21–32. Mottagen och avgiven effekt redovisas med positiva belopp. Källor klassificeras efter den verkliga strömriktningen vid plusanslutningen. Alla angivna energier i tidsberäkningarna förutsätter konstant effekt.
+
+### Begrepp och förståelse {#sec-facit-effekt-begrepp}
+
+1. **Energi** anger hur mycket som överförs eller omvandlas. **Effekt** anger hur snabbt det sker. Vid konstant effekt gäller $P=E/t$.
+
+2. Apparaten tar emot $3\,\mathrm{J}$ elektrisk energi varje sekund.
+
+3. Laddning förbrukas inte i resistorn. I stationärt tillstånd är strömmen lika stor in som ut. Elektrisk energi omvandlas till värme.
+
+4. Nej. Märkeffekten anger tillåten belastning under specificerade förhållanden. Den faktiska effekten bestäms av spänningen, strömmen och resistansen i kretsen.
+
+5. Går den verkliga strömmen in i anslutningen med högre potential tar komponenten emot elektrisk effekt. Går den ut ur denna anslutning avger komponenten elektrisk effekt. Referensmarkeringar måste tolkas tillsammans med beräknade tecken för att avgöra den verkliga riktningen och polariteten.
+
+6. Vid konstant spänning gäller $P=U^2/R$: större resistans ger lägre effekt. Vid konstant ström gäller $P=RI^2$: större resistans ger högre effekt. I en mer sammansatt krets kan både komponentens spänning och ström förändras.
+
+7. Nyttig effekt bidrar till systemets avsedda funktion. Förlusteffekt är den del av tillförd effekt som inte blir nyttig för denna funktion. Värme är nyttig i ett värmeelement men normalt en förlust i en motor. Energin bevaras även vid förluster.
+
+### Grundläggande beräkningar {#sec-facit-effekt-berakningar}
+
+8. $P=UI=(12\cdot0{,}150)\,\mathrm{W}=1{,}8\,\mathrm{W}$.
+
+9. $P=RI^2=(220\cdot0{,}020^2)\,\mathrm{W}=0{,}088\,\mathrm{W}=88\,\mathrm{mW}$.
+
+10. Ström och effekt:
+
+    $$
+    I=\frac{U}{R}=\frac{24}{4700}\,\mathrm{A}\approx5{,}11\,\mathrm{mA}.
+    $$
+
+    $$
+    P=\frac{U^2}{R}=\frac{24^2}{4700}\,\mathrm{W}\approx0{,}123\,\mathrm{W}.
+    $$
+
+11. Tiden är $1800\,\mathrm{s}=0{,}50\,\mathrm{h}$:
+
+    $$
+    E=Pt=(8{,}0\cdot1800)\,\mathrm{J}=14\,400\,\mathrm{J}=14{,}4\,\mathrm{kJ}.
+    $$
+
+    I wattimmar blir energin $E=(8{,}0\cdot0{,}50)\,\mathrm{Wh}=4{,}0\,\mathrm{Wh}$.
+
+12. Enhetsomvandlingar:
+
+    a. $2{,}0\,\mathrm{Wh}=7200\,\mathrm{J}$.
+
+    b. $7200\,\mathrm{J}=2{,}0\,\mathrm{Wh}$.
+
+    c. $0{,}50\,\mathrm{kWh}=1{,}8\,\mathrm{MJ}=1\,800\,000\,\mathrm{J}$.
+
+### Effektöverföring och effektbalans {#sec-facit-effekt-overforing}
+
+13. Batteriet:
+
+    a. Strömmen är $40\,\mathrm{mA}$ **in i pluspolen**, motsatt referenspilen.
+
+    b. Batteriet tar emot elektrisk effekt.
+
+    c. $P_\mathrm{mottagen}=(5{,}0\cdot0{,}040)\,\mathrm{W}=0{,}20\,\mathrm{W}$.
+
+14. Effektbalansen:
+
+    a. $P_2=P_\mathrm{avgiven}-P_1=(2{,}4-0{,}90)\,\mathrm{W}=1{,}5\,\mathrm{W}$.
+
+    b. $P_\mathrm{avgiven}=P_1+P_2$, alltså $2{,}4\,\mathrm{W}=(0{,}90+1{,}5)\,\mathrm{W}$.
+
+### Dimensionering och tillämpning {#sec-facit-effekt-dimensionering}
+
+15. Resistorn på $330\,\Omega$:
+
+    a. $P=U^2/R=(12^2/330)\,\mathrm{W}\approx0{,}436\,\mathrm{W}$.
+
+    b. $0{,}50\,\mathrm{W}$ och $1{,}0\,\mathrm{W}$ överstiger den beräknade effekten. $0{,}25\,\mathrm{W}$ är otillräcklig.
+
+    c. Valet kräver uppgifter om bland annat omgivningstemperatur, montering, databladets effektreducering, toleranser, spänningsvariationer och önskad marginal. Kontrollera även arbetsspänning och eventuella pulser. Att märkeffekten överstiger det nominella beräkningsvärdet räcker inte ensamt för ett lämpligt val.
+
+16. Gränser utifrån effekten:
+
+    a.
+
+       $$
+       I_\mathrm{max}=\sqrt{\frac{P_\mathrm{max}}{R}}
+       =\sqrt{\frac{0{,}25}{2200}}\,\mathrm{A}\approx10{,}7\,\mathrm{mA}.
+       $$
+
+    b.
+
+       $$
+       U_\mathrm{max}=\sqrt{P_\mathrm{max}R}
+       =\sqrt{0{,}25\cdot2200}\,\mathrm{V}\approx23{,}5\,\mathrm{V}.
+       $$
+
+    c. Resistorn kan ha en separat maximal arbetsspänning och andra begränsningar. Samtliga databladsvillkor måste uppfyllas. Värdet i b är en gräns från effektvillkoret och innehåller ingen dimensioneringsmarginal.
+
+17. Oförändrad resistans:
+
+    a. Strömmen fördubblas, eftersom $I=U/R$.
+
+    b. Effekten fyrdubblas, eftersom $P=U^2/R$.
+
+18. Konstant spänning:
+
+    a. Lägsta resistansen ger högst effekt: $R_\mathrm{min}=1000(1-0{,}05)\,\Omega=950\,\Omega$.
+
+    b. $P_\mathrm{max}=(12^2/950)\,\mathrm{W}\approx0{,}152\,\mathrm{W}$.
+
+19. Omvandlaren:
+
+    a. $P_\mathrm{in}=P_\mathrm{ut}/\eta=(6{,}0/0{,}80)\,\mathrm{W}=7{,}5\,\mathrm{W}$.
+
+    b. $P_\mathrm{förlust}=P_\mathrm{in}-P_\mathrm{ut}=(7{,}5-6{,}0)\,\mathrm{W}=1{,}5\,\mathrm{W}$.
+
+20. Apparaterna:
+
+    a. A har högst effekt: $20\,\mathrm{W}$ jämfört med $3{,}0\,\mathrm{W}$.
+
+    b. $E_A=(20\cdot2{,}0)\,\mathrm{Wh}=40\,\mathrm{Wh}$. $E_B=(3{,}0\cdot24)\,\mathrm{Wh}=72\,\mathrm{Wh}$. **B använder mest energi.**
+
+    c. Energin beror på både effekt och användningstid. B är inkopplad betydligt längre.
+
+### Kretsscheman, effektbalans och dimensionering {#sec-facit-effekt-kretsscheman}
+
+21. Två resistorer i samma strömväg:
+
+    a. Spänningslagen ger $U=(R_1+R_2)I$, alltså $I=4{,}0\,\mathrm{mA}$. Därmed är $U_1=4{,}0\,\mathrm{V}$ och $U_2=8{,}0\,\mathrm{V}$.
+
+    b. $P_1=R_1I^2=16\,\mathrm{mW}$ och $P_2=R_2I^2=32\,\mathrm{mW}$.
+
+    c. Källan avger $P_\mathrm{källa}=UI=48\,\mathrm{mW}$. Kontroll: $48\,\mathrm{mW}=(16+32)\,\mathrm{mW}$.
+
+    d. $R_2$ utvecklar störst effekt. Samma ström går genom båda, så $P=RI^2$ visar att dubbelt så stor resistans ger dubbelt så stor effekt.
+
+22. Belastning högst halva märkeffekten:
+
+    a. Märkeffekten måste vara minst dubbla den faktiska effekten. För $R_1$ krävs minst $32\,\mathrm{mW}$: välj **$0{,}063\,\mathrm{W}$**. För $R_2$ krävs minst $64\,\mathrm{mW}$: välj **$0{,}125\,\mathrm{W}$**. Alternativet $0{,}063\,\mathrm{W}$ räcker precis inte för $R_2$.
+
+    b. Tillåtna effekter med de valda resistorerna är $31{,}5\,\mathrm{mW}$ respektive $62{,}5\,\mathrm{mW}$. Gränserna för strömmen blir
+
+       $$
+       I_{\mathrm{max},1}=\sqrt{\frac{0{,}0315}{1000}}\,\mathrm{A}\approx5{,}61\,\mathrm{mA},
+       $$
+
+       $$
+       I_{\mathrm{max},2}=\sqrt{\frac{0{,}0625}{2000}}\,\mathrm{A}\approx5{,}59\,\mathrm{mA}.
+       $$
+
+       $R_2$ begränsar. Högsta källspänning blir
+
+       $$
+       U_\mathrm{max}=(R_1+R_2)I_\mathrm{max}\approx16{,}77\,\mathrm{V}.
+       $$
+
+       Detta är den beräknade gränsen enligt uppgiftens förenklade villkor. Välj inte ett avrundat värde ovanför gränsen om kravet ska uppfyllas strikt.
+
+23. Tre grenar:
+
+    a. $I_1=6{,}0\,\mathrm{mA}$, $I_2=4{,}0\,\mathrm{mA}$, $I_3=2{,}0\,\mathrm{mA}$ och $I=12\,\mathrm{mA}$.
+
+    b. $P_1=72\,\mathrm{mW}$, $P_2=48\,\mathrm{mW}$ och $P_3=24\,\mathrm{mW}$. Källan avger $144\,\mathrm{mW}$. Kontroll: $144\,\mathrm{mW}=(72+48+24)\,\mathrm{mW}$.
+
+    c. $R_1$ utvecklar störst effekt. Alla resistorer har samma spänning, så $P=U^2/R$ ger störst effekt för lägst resistans. I uppgift 21 är i stället strömmen gemensam.
+
+24. Energi under åtta timmar:
+
+    a. $E_1=0{,}576\,\mathrm{Wh}$, $E_2=0{,}384\,\mathrm{Wh}$ och $E_3=0{,}192\,\mathrm{Wh}$.
+
+    b. $E_\mathrm{källa}=1{,}152\,\mathrm{Wh}=4147{,}2\,\mathrm{J}\approx4{,}15\,\mathrm{kJ}$.
+
+    c. Minskningen är $0{,}192\,\mathrm{Wh}=691{,}2\,\mathrm{J}$. De andra grenarnas spänning och effekt är oförändrade med den ideala spänningskällan.
+
+25. Motverkande källor:
+
+    a. Med grundschemats referenser är $U_{AB}=-4\,\mathrm{V}$ och $I=-2{,}0\,\mathrm{mA}$. Den verkliga strömmen går uppåt genom resistorn, från B till A, och därefter genom 5 V-källan in i dess pluspol.
+
+    b. 9 V-källan **avger** $18\,\mathrm{mW}$. 5 V-källan **tar emot** $10\,\mathrm{mW}$.
+
+    c. Resistorn tar emot $P_R=RI^2=8\,\mathrm{mW}$. Effektbalans: $18\,\mathrm{mW}=(10+8)\,\mathrm{mW}$.
+
+    d. 5 V-källan tar emot $E=Pt=(0{,}010\cdot600)\,\mathrm{J}=6{,}0\,\mathrm{J}$.
+
+26. Samverkande källor:
+
+    a. $U_R=12\,\mathrm{V}$, $I=4{,}0\,\mathrm{mA}$ och $P_R=48\,\mathrm{mW}$.
+
+    b. 5 V-källan avger $20\,\mathrm{mW}$ och 7 V-källan avger $28\,\mathrm{mW}$. Kontroll: $(20+28)\,\mathrm{mW}=48\,\mathrm{mW}$.
+
+    c. Med enbart 5 V-källan blir $P'_R=(5^2/3000)\,\mathrm{W}\approx8{,}33\,\mathrm{mW}$. Förhållandet blir $P_R/P'_R=12^2/5^2=5{,}76$. Effekten är **5,76 gånger så stor** med båda källorna.
+
+27. Strömkälla och två resistorer:
+
+    a. $V_A=4{,}0\,\mathrm{V}$, $I_1=4{,}0\,\mathrm{mA}$ och $I_2=2{,}0\,\mathrm{mA}$.
+
+    b. $P_1=16\,\mathrm{mW}$ och $P_2=8\,\mathrm{mW}$. Strömkällan avger $24\,\mathrm{mW}$. Kontroll: $24\,\mathrm{mW}=(16+8)\,\mathrm{mW}$.
+
+    c. Hela källströmmen går nu genom $R_1$. $V_A=R_1I=6{,}0\,\mathrm{V}$, $P_1=R_1I^2=36\,\mathrm{mW}$ och källan avger $36\,\mathrm{mW}$. Källan håller strömmen konstant och måste därför höja spänningen. Den totala avgivna effekten ökar trots att en gren tagits bort.
+
+28. Strömkälla med spänningsbegränsning:
+
+    a. Med ideal källa:
+
+       | Resistans | Spänning | Ström | Effekt i resistorn |
+       |---|---|---|---|
+       | $2{,}2\,\mathrm{k}\Omega$ | $11\,\mathrm{V}$ | $5{,}0\,\mathrm{mA}$ | $55\,\mathrm{mW}$ |
+       | $4{,}7\,\mathrm{k}\Omega$ | $23{,}5\,\mathrm{V}$ | $5{,}0\,\mathrm{mA}$ | $117{,}5\,\mathrm{mW}$ |
+
+    b. Med uppgiftens verkliga källmodell är värdena för $2{,}2\,\mathrm{k}\Omega$ oförändrade. För $4{,}7\,\mathrm{k}\Omega$ begränsas spänningen till $15\,\mathrm{V}$:
+
+       $$
+       I=\frac{15}{4700}\,\mathrm{A}\approx3{,}19\,\mathrm{mA},\qquad
+       P=\frac{15^2}{4700}\,\mathrm{W}\approx47{,}9\,\mathrm{mW}.
+       $$
+
+29. En gren utan effektutveckling:
+
+    a. $V_X=6{,}0\,\mathrm{V}$. Genom $R_1$ går $6{,}0\,\mathrm{mA}$ från 12 V-noden till X. Genom $R_2$ går ingen ström. Genom $R_3$ går $6{,}0\,\mathrm{mA}$ från X till referensen.
+
+    b. $P_1=36\,\mathrm{mW}$, $P_2=0\,\mathrm{W}$ och $P_3=36\,\mathrm{mW}$. Båda ändarna av $R_2$ ligger på $6\,\mathrm{V}$, så spänningen över resistorn och strömmen genom den är noll.
+
+    c. 12 V-källan avger $72\,\mathrm{mW}$. 6 V-källans effekt är noll eftersom ingen ström går genom den. Kontroll: $72\,\mathrm{mW}=(36+0+36)\,\mathrm{mW}$.
+
+30. Två slingor:
+
+    a. Välj $I_1$ från A till X, $I_2$ från X till B och $I_3$ från X till referensen. Ekvationerna är
+
+       $$
+       I_1=I_2+I_3,
+       $$
+
+       $$
+       12\,\mathrm{V}-R_1I_1-R_3I_3=0,
+       $$
+
+       $$
+       6\,\mathrm{V}+R_2I_2-R_3I_3=0.
+       $$
+
+       De ger $V_X=7{,}50\,\mathrm{V}$, $I_1=4{,}50\,\mathrm{mA}$, $I_2=0{,}75\,\mathrm{mA}$ och $I_3=3{,}75\,\mathrm{mA}$. Alla strömmar går i de valda riktningarna.
+
+    b. Med $P=RI^2$ fås $P_1=20{,}25\,\mathrm{mW}$, $P_2=1{,}125\,\mathrm{mW}$ och $P_3=28{,}125\,\mathrm{mW}$. Summan är $49{,}50\,\mathrm{mW}$.
+
+    c. 12 V-källan avger $(12\cdot4{,}50)\,\mathrm{mW}=54{,}0\,\mathrm{mW}$. Strömmen går in i 6 V-källans pluspol, så den tar emot $(6\cdot0{,}75)\,\mathrm{mW}=4{,}50\,\mathrm{mW}$.
+
+    d. Effektbalansen blir
+
+       $$
+       54{,}0\,\mathrm{mW}=(20{,}25+1{,}125+28{,}125+4{,}50)\,\mathrm{mW}.
+       $$
+
+       En spänningskälla kan ta emot effekt. Det är strömmens riktning vid pluspolen som avgör, inte komponenttypen ensam.
+
+31. Tolerans:
+
+    a. För varje fall används $I=12\,\mathrm{V}/(R_1+R_2)$ och $P_k=R_kI^2$:
+
+       | $R_1$ | Ström | Effekt i $R_1$ | Effekt i $R_2$ |
+       |---|---|---|---|
+       | $950\,\Omega$ | $4{,}068\,\mathrm{mA}$ | $15{,}720\,\mathrm{mW}$ | $33{,}094\,\mathrm{mW}$ |
+       | $1050\,\Omega$ | $3{,}934\,\mathrm{mA}$ | $16{,}254\,\mathrm{mW}$ | $30{,}959\,\mathrm{mW}$ |
+
+    b. Av dessa två fall får $R_1$ högst effekt vid $1050\,\Omega$, medan $R_2$ får högst effekt vid $950\,\Omega$. Källspänningen är konstant men spänningen över $R_1$ är inte konstant. När $R_1$ ändras påverkas både spänningsfördelningen och strömmen. Uttrycket för dess effekt är
+
+       $$
+       P_1=\frac{U^2R_1}{(R_1+R_2)^2}.
+       $$
+
+       Därför kan regeln för en ensam resistor över konstant spänning inte tillämpas direkt på $R_1$.
+
+32. Två olika idealmodeller:
+
+    a. Från början är $U_R=10\,\mathrm{V}$, $I_R=10\,\mathrm{mA}$ och $P_R=0{,}10\,\mathrm{W}$ i båda kretsarna.
+
+    b. Efter fördubblad resistans:
+
+       | Källa | Resistans | Ström | Spänning över resistorn | Effekt |
+       |---|---|---|---|---|
+       | Ideal spänningskälla | $2\,\mathrm{k}\Omega$ | $5{,}0\,\mathrm{mA}$ | $10\,\mathrm{V}$ | $50\,\mathrm{mW}$ |
+       | Ideal strömkälla | $2\,\mathrm{k}\Omega$ | $10\,\mathrm{mA}$ | $20\,\mathrm{V}$ | $200\,\mathrm{mW}$ |
+
+    c. Spänningskällan håller spänningen konstant: $P=U^2/R$, så effekten halveras. Strömkällan håller strömmen konstant: $P=RI^2$, så effekten fördubblas.
+    

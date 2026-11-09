@@ -1,4 +1,53 @@
-# Förord {.unnumbered}
+# Förord {.unnumbered #sec-forord}
 
-Denna bok behandlar grundläggande ellära och kretsanalys
-med inriktning mot elektronik.
+Den här boken har tagits fram som stöd för undervisning i ellära
+inom yrkeshögskolan. Målet är att förena förståelse för elektriska
+storheter och samband med en systematisk arbetsgång för
+kretsberäkningar.
+
+Materialet har utformats av Henrik Hallenberg med utgångspunkt
+i kursens innehåll och undervisningens behov. Förklaringar,
+räkneexempel och övningsuppgifter är avsedda att stegvis utveckla
+förmågan att läsa kretsscheman, formulera samband och bedöma
+om beräknade resultat är rimliga.
+
+## Framtagning och AI-stöd {.unnumbered #sec-forord-framtagning}
+
+Boken har skrivits och bearbetats med stöd av ChatGPT från OpenAI.
+Vid framtagningen har bland annat **OpenAI Codex, baserad på GPT-6**, använts.
+
+AI har använts för bland annat textutkast, språklig bearbetning,
+förslag på disposition, räkneexempel, övningsuppgifter och facit.
+Även vissa illustrationer har tagits fram med AI-stöd.
+Författaren ansvarar för urval, bearbetning och slutlig granskning
+av innehållet.
+
+Boken är skriven i Markdown med matematiska uttryck i LaTeX
+och sammanställs med tillägget **Quarto Version 1.139.0** i **VS Code Version 1.140.0**. Kretsscheman har ritats i
+**KiCad 10.0.06**. Vissa diagram och illustrationer har skapats separat.
+
+Materialet utvecklas fortlöpande. Synpunkter och påpekanden
+om fel eller otydligheter är välkomna.
+
+## Licens och bildkällor {.unnumbered #sec-forord-licens}
+
+© 2026 Henrik Hallenberg.
+
+Om inget annat anges omfattas författarens eget upphovsrättsligt
+skyddade material i denna bok av
+[Creative Commons Erkännande 4.0 Internationell (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.sv).
+
+Det innebär att materialet får delas och bearbetas, även för
+kommersiella ändamål, under förutsättning att upphovspersonen
+anges, att en länk till licensen lämnas och att eventuella
+ändringar redovisas.
+
+Bilder och annat material som kommer från från externa upphovspersoner omfattas
+av de licenser eller användningsvillkor som anges vid respektive
+material eller i bokens bildförteckning. Bokens generella licens
+ersätter inte dessa villkor.
+
+Detta gäller exempelvis bilder hämtade från Wikipedia eller
+Wikimedia Commons. För sådana bilder anges upphovsperson,
+källa, licens och eventuella bearbetningar. Vid återanvändning
+måste villkoren för den aktuella bilden följas.
